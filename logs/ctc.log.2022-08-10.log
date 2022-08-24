@@ -1,0 +1,9 @@
+[2022-08-11 00:03:31,503] [3313] [INFO] - dataset.load_label_dict (dataset.py:65) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-11 00:03:31,531] [3313] [INFO] - dataset.load_label_dict (dataset.py:65) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-11 00:03:31,531] [3313] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990
+[2022-08-11 00:03:31,531] [3313] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10
+[2022-08-11 00:03:31,531] [3313] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-11 00:03:31,531] [3313] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 6
+[2022-08-11 00:03:31,531] [3313] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 10 steps
+[2022-08-11 00:03:35,420] [3313] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-11 00:03:35,713] [3313] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]

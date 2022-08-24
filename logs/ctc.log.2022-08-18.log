@@ -1,0 +1,132 @@
+[2022-08-18 10:16:32,266] [40459] [INFO] - predictor.load_label_dict (predictor.py:81) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-18 10:16:33,827] [40459] [INFO] - predictor.__init__ (predictor.py:59) - model loaded from dir /home/yanghh/MiduCTC-competition/model/macbert_best
+[2022-08-18 10:20:30,871] [40558] [INFO] - predictor.load_label_dict (predictor.py:81) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-18 10:20:32,269] [40558] [INFO] - predictor.__init__ (predictor.py:59) - model loaded from dir /home/yanghh/MiduCTC-competition/model/macbert_best
+[2022-08-18 10:20:36,086] [40558] [INFO] - predictor.__init__ (predictor.py:59) - model loaded from dir /home/yanghh/MiduCTC-competition/model/roberta_best/roberta_best
+[2022-08-18 10:20:40,850] [40558] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:166) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 164, in ctc_comp_f1_token_level
+    src_text, trg_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-18 10:20:40,874] [40558] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-18 10:20:40,963] [40558] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.6148
+[2022-08-18 10:20:40,963] [40558] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-18 10:20:41,156] [40558] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:166) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 164, in ctc_comp_f1_token_level
+    src_text, trg_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-18 10:20:41,179] [40558] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-18 10:20:41,269] [40558] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.6162
+[2022-08-18 10:20:41,269] [40558] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-18 10:21:21,871] [40625] [INFO] - predictor.load_label_dict (predictor.py:81) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-18 10:21:23,324] [40625] [INFO] - predictor.__init__ (predictor.py:59) - model loaded from dir /home/yanghh/MiduCTC-competition/model/macbert_best
+[2022-08-18 10:21:27,114] [40625] [INFO] - predictor.__init__ (predictor.py:59) - model loaded from dir /home/yanghh/MiduCTC-competition/model/roberta_best/roberta_best
+[2022-08-18 10:21:29,877] [40625] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-18 10:21:29,973] [40625] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.6358
+[2022-08-18 10:21:29,973] [40625] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-18 10:21:30,164] [40625] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-18 10:21:30,257] [40625] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.6344
+[2022-08-18 10:21:30,257] [40625] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-18 10:30:29,090] [40697] [INFO] - predictor.load_label_dict (predictor.py:81) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-18 10:30:30,524] [40697] [INFO] - predictor.__init__ (predictor.py:59) - model loaded from dir /home/yanghh/MiduCTC-competition/model/macbert_best
+[2022-08-18 10:30:34,483] [40697] [INFO] - predictor.__init__ (predictor.py:59) - model loaded from dir /home/yanghh/MiduCTC-competition/model/roberta_best/roberta_best
+[2022-08-18 10:30:37,395] [40697] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-18 10:30:37,491] [40697] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.6358
+[2022-08-18 10:30:37,491] [40697] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-18 10:30:37,678] [40697] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-18 10:30:37,777] [40697] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.6372
+[2022-08-18 10:30:37,777] [40697] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-18 10:35:50,738] [40900] [INFO] - predictor.load_label_dict (predictor.py:81) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-18 10:35:52,101] [40900] [INFO] - predictor.__init__ (predictor.py:59) - model loaded from dir /home/yanghh/MiduCTC-competition/model/macbert_best
+[2022-08-18 10:35:55,910] [40900] [INFO] - predictor.__init__ (predictor.py:59) - model loaded from dir /home/yanghh/MiduCTC-competition/model/roberta_best/roberta_best
+[2022-08-18 12:04:40,073] [2079] [INFO] - predictor.load_label_dict (predictor.py:81) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-18 12:04:41,479] [2079] [INFO] - predictor.__init__ (predictor.py:59) - model loaded from dir /home/yanghh/MiduCTC-competition/model/macbert_best
+[2022-08-18 12:04:45,272] [2079] [INFO] - predictor.__init__ (predictor.py:59) - model loaded from dir /home/yanghh/MiduCTC-competition/model/roberta_best/roberta_best
+[2022-08-18 12:05:08,157] [2373] [INFO] - predictor.load_label_dict (predictor.py:81) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-18 12:05:09,548] [2373] [INFO] - predictor.__init__ (predictor.py:59) - model loaded from dir /home/yanghh/MiduCTC-competition/model/macbert_best
+[2022-08-18 12:05:13,374] [2373] [INFO] - predictor.__init__ (predictor.py:59) - model loaded from dir /home/yanghh/MiduCTC-competition/model/roberta_best/roberta_best
+[2022-08-18 12:05:18,010] [2373] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:166) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 164, in ctc_comp_f1_token_level
+    src_text, trg_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-18 12:05:18,034] [2373] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-18 12:05:18,125] [2373] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.6148
+[2022-08-18 12:05:18,125] [2373] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-18 12:05:18,319] [2373] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:166) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 164, in ctc_comp_f1_token_level
+    src_text, trg_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-18 12:05:18,343] [2373] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-18 12:05:18,434] [2373] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.6162
+[2022-08-18 12:05:18,434] [2373] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-18 12:08:14,154] [3267] [INFO] - predictor.load_label_dict (predictor.py:81) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-18 12:08:15,504] [3267] [INFO] - predictor.__init__ (predictor.py:59) - model loaded from dir /home/yanghh/MiduCTC-competition/model/macbert_best
+[2022-08-18 12:08:19,353] [3267] [INFO] - predictor.__init__ (predictor.py:59) - model loaded from dir /home/yanghh/MiduCTC-competition/model/roberta_best/roberta_best
+[2022-08-18 12:10:17,446] [3333] [INFO] - predictor.load_label_dict (predictor.py:81) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-18 12:10:18,840] [3333] [INFO] - predictor.__init__ (predictor.py:59) - model loaded from dir /home/yanghh/MiduCTC-competition/model/macbert_best
+[2022-08-18 12:10:22,948] [3333] [INFO] - predictor.__init__ (predictor.py:59) - model loaded from dir /home/yanghh/MiduCTC-competition/model/roberta_best/roberta_best
+[2022-08-18 12:14:41,274] [3405] [INFO] - predictor.load_label_dict (predictor.py:81) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-18 12:14:42,811] [3405] [INFO] - predictor.__init__ (predictor.py:59) - model loaded from dir /home/yanghh/MiduCTC-competition/model/macbert_best
+[2022-08-18 12:14:46,753] [3405] [INFO] - predictor.__init__ (predictor.py:59) - model loaded from dir /home/yanghh/MiduCTC-competition/model/roberta_best/roberta_best
+[2022-08-18 12:16:00,177] [3521] [INFO] - predictor.load_label_dict (predictor.py:81) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-18 12:16:01,657] [3521] [INFO] - predictor.__init__ (predictor.py:59) - model loaded from dir /home/yanghh/MiduCTC-competition/model/macbert_best
+[2022-08-18 12:16:05,396] [3521] [INFO] - predictor.__init__ (predictor.py:59) - model loaded from dir /home/yanghh/MiduCTC-competition/model/roberta_best/roberta_best

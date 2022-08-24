@@ -1,0 +1,1248 @@
+[2022-08-12 00:00:27,389] [33593] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 00:00:27,390] [33593] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:93.62%, d_recall:86.09%, d_f1:89.7%
+[2022-08-12 00:00:27,390] [33593] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:84.45%, c_recall:77.66%, c_f1:80.91000000000001%
+[2022-08-12 00:00:27,390] [33593] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 69430
+[2022-08-12 00:00:27,410] [33593] [INFO] - trainer.train (trainer.py:361) - [Evaluating] Epoch 1/1, Step 5500/27500, epoch_c_loss:381.6681443452835, epoch_precision:0.8445, epoch_recall:0.7766, epoch_f1:0.8091,  
+[2022-08-12 00:00:36,915] [33593] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 00:00:36,916] [33593] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:46.26%, d_recall:53.04%, d_f1:49.419999999999995%
+[2022-08-12 00:00:36,916] [33593] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:39.73%, c_recall:45.550000000000004%, c_f1:42.44%
+[2022-08-12 00:00:36,916] [33593] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 641
+[2022-08-12 00:00:36,917] [33593] [INFO] - trainer.train (trainer.py:373) - [Testing] Epoch 1/1, Step 5500/27500, epoch_c_loss:20.120372772216797, epoch_precision:0.3973, epoch_recall:0.4555, epoch_f1:0.4244
+[2022-08-12 00:00:38,082] [33593] [INFO] - trainer.save_model (trainer.py:297) - =========== New Model saved at model/ctc_train_26 =============
+[2022-08-12 00:00:38,082] [33593] [INFO] - trainer.train (trainer.py:409) - epoch1,step5500,testf1_42_44%,devf1_80_91%
+[2022-08-12 00:00:39,447] [33593] [INFO] - trainer.train (trainer.py:429) - Epoch End..
+[2022-08-12 00:00:39,448] [33593] [INFO] - trainer.train (trainer.py:435) - [Training epoch] Epoch 1/1,epoch_c_loss:7382.578018665314, epoch_precision:None, epoch_recall:None, epoch_f1:None
+[2022-08-12 00:12:37,613] [35881] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:12:40,843] [35881] [INFO] - predictor.__init__ (predictor.py:42) - model loaded from dir /home/yanghh/MiduCTC-competition/model/ctc_train_24
+[2022-08-12 00:12:46,237] [35881] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 00:12:46,245] [35881] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 00:12:46,267] [35881] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:166) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 164, in ctc_comp_f1_token_level
+    src_text, trg_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 00:12:46,302] [35881] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 00:12:46,316] [35881] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 00:12:46,373] [35881] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 00:12:46,375] [35881] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.4122
+[2022-08-12 00:12:46,375] [35881] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-12 00:12:46,387] [35881] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:12:49,560] [35881] [INFO] - predictor.__init__ (predictor.py:42) - model loaded from dir /home/yanghh/MiduCTC-competition/model/ctc_train_25
+[2022-08-12 00:12:52,210] [35881] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 00:12:52,218] [35881] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 00:12:52,239] [35881] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:166) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 164, in ctc_comp_f1_token_level
+    src_text, trg_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 00:12:52,316] [35881] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 00:12:52,338] [35881] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 00:12:52,346] [35881] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 00:12:52,348] [35881] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.4086
+[2022-08-12 00:12:52,348] [35881] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-12 00:12:52,365] [35881] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:12:55,322] [35881] [INFO] - predictor.__init__ (predictor.py:42) - model loaded from dir /home/yanghh/MiduCTC-competition/model/ctc_train_26
+[2022-08-12 00:12:58,043] [35881] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 00:12:58,064] [35881] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:166) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 164, in ctc_comp_f1_token_level
+    src_text, trg_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 00:12:58,141] [35881] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 00:12:58,172] [35881] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.4146
+[2022-08-12 00:12:58,172] [35881] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-12 00:32:59,837] [36287] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:32:59,944] [36287] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:32:59,945] [36287] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990000
+[2022-08-12 00:32:59,945] [36287] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10000
+[2022-08-12 00:32:59,945] [36287] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 00:32:59,945] [36287] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 5500
+[2022-08-12 00:32:59,945] [36287] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 275 steps
+[2022-08-12 00:32:59,989] [36290] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:33:00,006] [36288] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:33:00,079] [36290] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:33:00,079] [36290] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990000
+[2022-08-12 00:33:00,079] [36290] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10000
+[2022-08-12 00:33:00,080] [36290] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 00:33:00,080] [36290] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 5500
+[2022-08-12 00:33:00,080] [36290] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 275 steps
+[2022-08-12 00:33:00,085] [36291] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:33:00,109] [36288] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:33:00,109] [36288] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990000
+[2022-08-12 00:33:00,109] [36288] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10000
+[2022-08-12 00:33:00,109] [36288] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 00:33:00,110] [36288] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 5500
+[2022-08-12 00:33:00,110] [36288] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 275 steps
+[2022-08-12 00:33:00,132] [36289] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:33:00,194] [36291] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:33:00,194] [36291] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990000
+[2022-08-12 00:33:00,195] [36291] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10000
+[2022-08-12 00:33:00,195] [36291] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 00:33:00,195] [36291] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 5500
+[2022-08-12 00:33:00,195] [36291] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 275 steps
+[2022-08-12 00:33:00,254] [36289] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:33:00,255] [36289] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990000
+[2022-08-12 00:33:00,255] [36289] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10000
+[2022-08-12 00:33:00,255] [36289] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 00:33:00,255] [36289] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 5500
+[2022-08-12 00:33:00,255] [36289] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 275 steps
+[2022-08-12 00:33:03,087] [36287] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:33:03,228] [36290] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:33:03,405] [36288] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:33:03,495] [36291] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:33:03,581] [36289] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:33:03,751] [36287] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 00:33:03,753] [36289] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 00:33:03,753] [36288] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 00:33:03,754] [36290] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 00:33:03,754] [36291] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 00:33:36,768] [37203] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:33:36,773] [37199] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:33:36,814] [37201] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:33:36,863] [37203] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:33:36,863] [37203] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990000
+[2022-08-12 00:33:36,863] [37203] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10000
+[2022-08-12 00:33:36,863] [37203] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 00:33:36,863] [37203] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 2750
+[2022-08-12 00:33:36,863] [37203] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 1375 steps
+[2022-08-12 00:33:36,901] [37199] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:33:36,902] [37199] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990000
+[2022-08-12 00:33:36,902] [37199] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10000
+[2022-08-12 00:33:36,902] [37199] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 00:33:36,902] [37199] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 2750
+[2022-08-12 00:33:36,902] [37199] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 1375 steps
+[2022-08-12 00:33:36,943] [37200] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:33:36,979] [37201] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:33:36,980] [37201] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990000
+[2022-08-12 00:33:36,980] [37201] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10000
+[2022-08-12 00:33:36,980] [37201] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 00:33:36,980] [37201] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 2750
+[2022-08-12 00:33:36,980] [37201] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 1375 steps
+[2022-08-12 00:33:37,031] [37202] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:33:37,036] [37200] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:33:37,036] [37200] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990000
+[2022-08-12 00:33:37,036] [37200] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10000
+[2022-08-12 00:33:37,036] [37200] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 00:33:37,036] [37200] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 2750
+[2022-08-12 00:33:37,036] [37200] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 1375 steps
+[2022-08-12 00:33:37,120] [37202] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:33:37,120] [37202] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990000
+[2022-08-12 00:33:37,120] [37202] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10000
+[2022-08-12 00:33:37,120] [37202] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 00:33:37,120] [37202] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 2750
+[2022-08-12 00:33:37,120] [37202] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 1375 steps
+[2022-08-12 00:33:40,091] [37203] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:33:40,156] [37199] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:33:40,311] [37201] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:33:40,411] [37202] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:33:40,466] [37200] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:33:40,698] [37199] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 00:33:40,699] [37200] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 00:33:40,700] [37202] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 00:33:40,700] [37203] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 00:33:40,700] [37201] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 00:39:18,157] [38947] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:39:18,184] [38949] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:39:18,233] [38946] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:39:18,268] [38947] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:39:18,269] [38947] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990000
+[2022-08-12 00:39:18,269] [38947] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10000
+[2022-08-12 00:39:18,269] [38947] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 00:39:18,269] [38947] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 2750
+[2022-08-12 00:39:18,269] [38947] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 1375 steps
+[2022-08-12 00:39:18,286] [38949] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:39:18,286] [38949] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990000
+[2022-08-12 00:39:18,286] [38949] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10000
+[2022-08-12 00:39:18,287] [38949] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 00:39:18,287] [38949] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 2750
+[2022-08-12 00:39:18,287] [38949] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 1375 steps
+[2022-08-12 00:39:18,329] [38946] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:39:18,329] [38946] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990000
+[2022-08-12 00:39:18,329] [38946] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10000
+[2022-08-12 00:39:18,330] [38946] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 00:39:18,330] [38946] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 2750
+[2022-08-12 00:39:18,330] [38946] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 1375 steps
+[2022-08-12 00:39:18,358] [38948] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:39:18,433] [38950] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:39:18,456] [38948] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:39:18,456] [38948] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990000
+[2022-08-12 00:39:18,456] [38948] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10000
+[2022-08-12 00:39:18,456] [38948] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 00:39:18,456] [38948] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 2750
+[2022-08-12 00:39:18,456] [38948] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 1375 steps
+[2022-08-12 00:39:18,531] [38950] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:39:18,531] [38950] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990000
+[2022-08-12 00:39:18,532] [38950] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10000
+[2022-08-12 00:39:18,532] [38950] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 00:39:18,532] [38950] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 2750
+[2022-08-12 00:39:18,532] [38950] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 1375 steps
+[2022-08-12 00:39:21,415] [38947] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:39:21,503] [38949] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:39:21,612] [38946] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:39:21,706] [38948] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:39:21,892] [38950] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 00:39:22,066] [38946] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 00:39:22,067] [38947] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 00:39:22,068] [38948] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 00:39:22,068] [38949] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 00:39:22,068] [38950] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 00:48:02,554] [38946] [INFO] - trainer.train (trainer.py:352) - [Start Evaluating]: local rank 0
+[2022-08-12 00:48:35,353] [38946] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 00:48:35,353] [38946] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:91.63%, d_recall:79.99000000000001%, d_f1:85.42%
+[2022-08-12 00:48:35,353] [38946] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:74.03%, c_recall:64.63%, c_f1:69.01%
+[2022-08-12 00:48:35,353] [38946] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 14406
+[2022-08-12 00:48:35,364] [38946] [INFO] - trainer.train (trainer.py:361) - [Evaluating] Epoch 1/10, Step 1375/13750, epoch_c_loss:180.88811671733856, epoch_precision:0.7403, epoch_recall:0.6463, epoch_f1:0.6901,  
+[2022-08-12 00:48:44,934] [38946] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 00:48:44,934] [38946] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:58.4%, d_recall:48.83%, d_f1:53.190000000000005%
+[2022-08-12 00:48:44,934] [38946] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:50.56%, c_recall:42.28%, c_f1:46.050000000000004%
+[2022-08-12 00:48:44,934] [38946] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 641
+[2022-08-12 00:48:44,936] [38946] [INFO] - trainer.train (trainer.py:373) - [Testing] Epoch 1/10, Step 1375/13750, epoch_c_loss:19.922242403030396, epoch_precision:0.5056, epoch_recall:0.4228, epoch_f1:0.4605
+[2022-08-12 00:48:45,892] [38946] [INFO] - trainer.save_model (trainer.py:297) - =========== New Model saved at model/ctc_train_23_stage_1/epoch1,step1375,testf1_46_05%,devf1_69_01% =============
+[2022-08-12 00:48:45,892] [38946] [INFO] - trainer.train (trainer.py:409) - epoch1,step1375,testf1_46_05%,devf1_69_01%
+[2022-08-12 00:57:04,237] [38946] [INFO] - trainer.train (trainer.py:352) - [Start Evaluating]: local rank 0
+[2022-08-12 00:57:38,053] [38946] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 00:57:38,054] [38946] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:91.41%, d_recall:82.05%, d_f1:86.48%
+[2022-08-12 00:57:38,054] [38946] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:74.38%, c_recall:66.75999999999999%, c_f1:70.36%
+[2022-08-12 00:57:38,054] [38946] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 14406
+[2022-08-12 00:57:38,065] [38946] [INFO] - trainer.train (trainer.py:361) - [Evaluating] Epoch 1/10, Step 2750/13750, epoch_c_loss:180.33504593372345, epoch_precision:0.7438, epoch_recall:0.6676, epoch_f1:0.7036,  
+[2022-08-12 00:57:47,778] [38946] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 00:57:47,779] [38946] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:55.17999999999999%, d_recall:50.7%, d_f1:52.849999999999994%
+[2022-08-12 00:57:47,779] [38946] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:47.370000000000005%, c_recall:43.53%, c_f1:45.37%
+[2022-08-12 00:57:47,779] [38946] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 641
+[2022-08-12 00:57:47,780] [38946] [INFO] - trainer.train (trainer.py:373) - [Testing] Epoch 1/10, Step 2750/13750, epoch_c_loss:19.990023016929626, epoch_precision:0.4737, epoch_recall:0.4353, epoch_f1:0.4537
+[2022-08-12 00:57:48,741] [38946] [INFO] - trainer.save_model (trainer.py:297) - =========== New Model saved at model/ctc_train_23_stage_1/epoch1,step2750,testf1_45_37%,devf1_70_36% =============
+[2022-08-12 00:57:48,741] [38946] [INFO] - trainer.train (trainer.py:409) - epoch1,step2750,testf1_45_37%,devf1_70_36%
+[2022-08-12 00:57:49,438] [38946] [INFO] - trainer.train (trainer.py:429) - Epoch End..
+[2022-08-12 00:57:49,438] [38946] [INFO] - trainer.train (trainer.py:435) - [Training epoch] Epoch 1/10,epoch_c_loss:3606.577381849289, epoch_precision:None, epoch_recall:None, epoch_f1:None
+[2022-08-12 00:58:08,406] [38946] [INFO] - trainer.train (trainer.py:352) - [Start Evaluating]: local rank 0
+[2022-08-12 00:58:41,106] [38946] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 00:58:41,106] [38946] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:91.42%, d_recall:81.89999999999999%, d_f1:86.4%
+[2022-08-12 00:58:41,107] [38946] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:74.47%, c_recall:66.72%, c_f1:70.38%
+[2022-08-12 00:58:41,107] [38946] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 14406
+[2022-08-12 00:58:41,118] [38946] [INFO] - trainer.train (trainer.py:361) - [Evaluating] Epoch 2/10, Step 1/13750, epoch_c_loss:180.33247554302216, epoch_precision:0.7447, epoch_recall:0.6672, epoch_f1:0.7038,  
+[2022-08-12 00:58:50,801] [38946] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 00:58:50,803] [38946] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:55.04%, d_recall:50.23%, d_f1:52.53%
+[2022-08-12 00:58:50,803] [38946] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:47.349999999999994%, c_recall:43.21%, c_f1:45.190000000000005%
+[2022-08-12 00:58:50,803] [38946] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 641
+[2022-08-12 00:58:50,805] [38946] [INFO] - trainer.train (trainer.py:373) - [Testing] Epoch 2/10, Step 1/13750, epoch_c_loss:19.98305070400238, epoch_precision:0.4735, epoch_recall:0.4321, epoch_f1:0.4519
+[2022-08-12 00:58:51,780] [38946] [INFO] - trainer.save_model (trainer.py:297) - =========== New Model saved at model/ctc_train_23_stage_1/epoch2,step1,testf1_45_19%,devf1_70_38% =============
+[2022-08-12 00:58:51,780] [38946] [INFO] - trainer.train (trainer.py:409) - epoch2,step1,testf1_45_19%,devf1_70_38%
+[2022-08-12 01:07:10,174] [38946] [INFO] - trainer.train (trainer.py:352) - [Start Evaluating]: local rank 0
+[2022-08-12 01:07:43,534] [38946] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 01:07:43,534] [38946] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:92.27%, d_recall:82.0%, d_f1:86.83%
+[2022-08-12 01:07:43,534] [38946] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:75.39%, c_recall:67.0%, c_f1:70.95%
+[2022-08-12 01:07:43,534] [38946] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 14406
+[2022-08-12 01:07:43,545] [38946] [INFO] - trainer.train (trainer.py:361) - [Evaluating] Epoch 2/10, Step 1375/13750, epoch_c_loss:180.12814140319824, epoch_precision:0.7539, epoch_recall:0.67, epoch_f1:0.7095,  
+[2022-08-12 01:07:53,138] [38946] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 01:07:53,139] [38946] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:51.29%, d_recall:49.769999999999996%, d_f1:50.519999999999996%
+[2022-08-12 01:07:53,139] [38946] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:44.37%, c_recall:43.059999999999995%, c_f1:43.71%
+[2022-08-12 01:07:53,139] [38946] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 641
+[2022-08-12 01:07:53,140] [38946] [INFO] - trainer.train (trainer.py:373) - [Testing] Epoch 2/10, Step 1375/13750, epoch_c_loss:19.99816620349884, epoch_precision:0.4437, epoch_recall:0.4306, epoch_f1:0.4371
+[2022-08-12 01:07:54,072] [38946] [INFO] - trainer.save_model (trainer.py:297) - =========== New Model saved at model/ctc_train_23_stage_1/epoch2,step1375,testf1_43_71%,devf1_70_95% =============
+[2022-08-12 01:07:54,072] [38946] [INFO] - trainer.train (trainer.py:409) - epoch2,step1375,testf1_43_71%,devf1_70_95%
+[2022-08-12 01:16:17,561] [38946] [INFO] - trainer.train (trainer.py:352) - [Start Evaluating]: local rank 0
+[2022-08-12 01:16:51,757] [38946] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 01:16:51,757] [38946] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:92.02%, d_recall:82.80999999999999%, d_f1:87.17%
+[2022-08-12 01:16:51,757] [38946] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:75.33999999999999%, c_recall:67.78999999999999%, c_f1:71.37%
+[2022-08-12 01:16:51,757] [38946] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 14406
+[2022-08-12 01:16:51,769] [38946] [INFO] - trainer.train (trainer.py:361) - [Evaluating] Epoch 2/10, Step 2750/13750, epoch_c_loss:179.90268909931183, epoch_precision:0.7534, epoch_recall:0.6779, epoch_f1:0.7137,  
+[2022-08-12 01:17:01,387] [38946] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 01:17:01,387] [38946] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:51.72%, d_recall:49.3%, d_f1:50.480000000000004%
+[2022-08-12 01:17:01,387] [38946] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:44.03%, c_recall:41.97%, c_f1:42.980000000000004%
+[2022-08-12 01:17:01,387] [38946] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 641
+[2022-08-12 01:17:01,388] [38946] [INFO] - trainer.train (trainer.py:373) - [Testing] Epoch 2/10, Step 2750/13750, epoch_c_loss:20.053179383277893, epoch_precision:0.4403, epoch_recall:0.4197, epoch_f1:0.4298
+[2022-08-12 01:17:02,352] [38946] [INFO] - trainer.save_model (trainer.py:297) - =========== New Model saved at model/ctc_train_23_stage_1/epoch2,step2750,testf1_42_98%,devf1_71_37% =============
+[2022-08-12 01:17:02,352] [38946] [INFO] - trainer.train (trainer.py:409) - epoch2,step2750,testf1_42_98%,devf1_71_37%
+[2022-08-12 01:17:03,071] [38946] [INFO] - trainer.train (trainer.py:429) - Epoch End..
+[2022-08-12 01:17:03,072] [38946] [INFO] - trainer.train (trainer.py:435) - [Training epoch] Epoch 2/10,epoch_c_loss:3570.475228190422, epoch_precision:None, epoch_recall:None, epoch_f1:None
+[2022-08-12 01:17:22,551] [38946] [INFO] - trainer.train (trainer.py:352) - [Start Evaluating]: local rank 0
+[2022-08-12 01:17:55,681] [38946] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 01:17:55,681] [38946] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:91.99000000000001%, d_recall:82.86%, d_f1:87.19%
+[2022-08-12 01:17:55,681] [38946] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:75.29%, c_recall:67.82000000000001%, c_f1:71.36%
+[2022-08-12 01:17:55,681] [38946] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 14406
+[2022-08-12 01:17:55,692] [38946] [INFO] - trainer.train (trainer.py:361) - [Evaluating] Epoch 3/10, Step 1/13750, epoch_c_loss:179.90472078323364, epoch_precision:0.7529, epoch_recall:0.6782, epoch_f1:0.7136,  
+[2022-08-12 01:18:05,446] [38946] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 01:18:05,446] [38946] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:51.22%, d_recall:49.3%, d_f1:50.239999999999995%
+[2022-08-12 01:18:05,446] [38946] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:43.6%, c_recall:41.97%, c_f1:42.77%
+[2022-08-12 01:18:05,446] [38946] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 641
+[2022-08-12 01:18:05,448] [38946] [INFO] - trainer.train (trainer.py:373) - [Testing] Epoch 3/10, Step 1/13750, epoch_c_loss:20.064448475837708, epoch_precision:0.436, epoch_recall:0.4197, epoch_f1:0.4277
+[2022-08-12 01:18:06,399] [38946] [INFO] - trainer.save_model (trainer.py:297) - =========== New Model saved at model/ctc_train_23_stage_1/epoch3,step1,testf1_42_77%,devf1_71_36% =============
+[2022-08-12 01:18:06,400] [38946] [INFO] - trainer.train (trainer.py:409) - epoch3,step1,testf1_42_77%,devf1_71_36%
+[2022-08-12 01:26:35,972] [38946] [INFO] - trainer.train (trainer.py:352) - [Start Evaluating]: local rank 0
+[2022-08-12 01:27:08,838] [38946] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 01:27:08,838] [38946] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:91.49000000000001%, d_recall:84.00999999999999%, d_f1:87.59%
+[2022-08-12 01:27:08,838] [38946] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:74.65%, c_recall:68.55%, c_f1:71.47%
+[2022-08-12 01:27:08,840] [38946] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 14406
+[2022-08-12 01:27:08,851] [38946] [INFO] - trainer.train (trainer.py:361) - [Evaluating] Epoch 3/10, Step 1375/13750, epoch_c_loss:179.89736413955688, epoch_precision:0.7465, epoch_recall:0.6855, epoch_f1:0.7147,  
+[2022-08-12 01:27:18,622] [38946] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 01:27:18,622] [38946] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:48.74%, d_recall:51.33%, d_f1:50.0%
+[2022-08-12 01:27:18,622] [38946] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:41.48%, c_recall:43.68%, c_f1:42.55%
+[2022-08-12 01:27:18,622] [38946] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 641
+[2022-08-12 01:27:18,623] [38946] [INFO] - trainer.train (trainer.py:373) - [Testing] Epoch 3/10, Step 1375/13750, epoch_c_loss:20.082380414009094, epoch_precision:0.4148, epoch_recall:0.4368, epoch_f1:0.4255
+[2022-08-12 01:27:19,548] [38946] [INFO] - trainer.save_model (trainer.py:297) - =========== New Model saved at model/ctc_train_23_stage_1/epoch3,step1375,testf1_42_55%,devf1_71_47% =============
+[2022-08-12 01:27:19,548] [38946] [INFO] - trainer.train (trainer.py:409) - epoch3,step1375,testf1_42_55%,devf1_71_47%
+[2022-08-12 01:47:28,973] [6166] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 01:49:43,213] [6360] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 01:50:09,601] [6447] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 01:50:12,750] [6447] [INFO] - predictor.__init__ (predictor.py:42) - model loaded from dir /home/yanghh/MiduCTC-competition/model/ctc_train_23_stage_1/epoch1step1375testf1_46_05%devf1_69_01%
+[2022-08-12 01:50:18,233] [6447] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:166) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 164, in ctc_comp_f1_token_level
+    src_text, trg_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 01:50:18,267] [6447] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 01:50:18,338] [6447] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.4457
+[2022-08-12 01:50:18,338] [6447] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-12 01:52:22,561] [6633] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 01:52:25,729] [6633] [INFO] - predictor.__init__ (predictor.py:42) - model loaded from dir /home/yanghh/MiduCTC-competition/model/ctc_train_23_stage_1/epoch1step2750testf1_45_37%devf1_70_36%
+[2022-08-12 01:52:31,220] [6633] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:166) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 164, in ctc_comp_f1_token_level
+    src_text, trg_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 01:52:31,254] [6633] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 01:52:31,325] [6633] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.4395
+[2022-08-12 01:52:31,326] [6633] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-12 01:52:56,699] [6754] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 01:52:59,838] [6754] [INFO] - predictor.__init__ (predictor.py:42) - model loaded from dir /home/yanghh/MiduCTC-competition/model/ctc_train_23_stage_1/epoch2step1testf1_45_19%devf1_70_38%
+[2022-08-12 01:53:05,734] [6754] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:166) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 164, in ctc_comp_f1_token_level
+    src_text, trg_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 01:53:05,768] [6754] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 01:53:05,839] [6754] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.4352
+[2022-08-12 01:53:05,840] [6754] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-12 01:53:44,790] [6883] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 01:53:47,981] [6883] [INFO] - predictor.__init__ (predictor.py:42) - model loaded from dir /home/yanghh/MiduCTC-competition/model/ctc_train_23_stage_1/epoch1step2750testf1_45_37%devf1_70_36%
+[2022-08-12 01:53:53,437] [6883] [INFO] - predictor.__init__ (predictor.py:42) - model loaded from dir /home/yanghh/MiduCTC-competition/model/ctc_train_23_stage_1/epoch2step1testf1_45_19%devf1_70_38%
+[2022-08-12 01:53:58,583] [6883] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:166) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 164, in ctc_comp_f1_token_level
+    src_text, trg_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 01:53:58,617] [6883] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 01:53:58,689] [6883] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.4352
+[2022-08-12 01:53:58,689] [6883] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-12 01:56:58,705] [7191] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 01:56:58,705] [7195] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 01:56:58,709] [7192] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 01:56:58,714] [7194] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 01:56:58,715] [7193] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 01:56:58,731] [7191] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 01:56:58,731] [7195] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 01:56:58,731] [7191] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990
+[2022-08-12 01:56:58,731] [7195] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990
+[2022-08-12 01:56:58,731] [7191] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10
+[2022-08-12 01:56:58,731] [7195] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10
+[2022-08-12 01:56:58,731] [7191] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 01:56:58,731] [7195] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 01:56:58,731] [7191] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 6
+[2022-08-12 01:56:58,731] [7195] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 6
+[2022-08-12 01:56:58,731] [7195] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 10 steps
+[2022-08-12 01:56:58,731] [7191] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 10 steps
+[2022-08-12 01:56:58,736] [7192] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 01:56:58,737] [7192] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990
+[2022-08-12 01:56:58,737] [7192] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10
+[2022-08-12 01:56:58,737] [7192] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 01:56:58,737] [7192] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 6
+[2022-08-12 01:56:58,737] [7192] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 10 steps
+[2022-08-12 01:56:58,742] [7194] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 01:56:58,742] [7194] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990
+[2022-08-12 01:56:58,742] [7193] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 01:56:58,742] [7194] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10
+[2022-08-12 01:56:58,742] [7194] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 01:56:58,742] [7194] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 6
+[2022-08-12 01:56:58,742] [7193] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990
+[2022-08-12 01:56:58,742] [7194] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 10 steps
+[2022-08-12 01:56:58,742] [7193] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10
+[2022-08-12 01:56:58,742] [7193] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 01:56:58,743] [7193] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 6
+[2022-08-12 01:56:58,743] [7193] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 10 steps
+[2022-08-12 01:57:01,878] [7191] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 01:57:02,049] [7195] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 01:57:02,386] [7193] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 01:57:02,436] [7194] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 01:57:02,470] [7192] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 01:57:02,711] [7191] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 01:57:02,713] [7192] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 01:57:02,713] [7193] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 01:57:02,713] [7195] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 01:57:02,713] [7194] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 01:57:13,859] [7191] [INFO] - trainer.train (trainer.py:429) - Epoch End..
+[2022-08-12 01:57:13,859] [7191] [INFO] - trainer.train (trainer.py:435) - [Training epoch] Epoch 1/10,epoch_c_loss:8.330018758773804, epoch_precision:None, epoch_recall:None, epoch_f1:None
+[2022-08-12 01:57:22,672] [7191] [INFO] - trainer.train (trainer.py:352) - [Start Evaluating]: local rank 0
+[2022-08-12 01:57:30,516] [7191] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 01:57:30,516] [7191] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:70.0%, d_recall:50.0%, d_f1:58.330000000000005%
+[2022-08-12 01:57:30,517] [7191] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:70.0%, c_recall:50.0%, c_f1:58.330000000000005%
+[2022-08-12 01:57:30,517] [7191] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 14
+[2022-08-12 01:57:30,517] [7191] [INFO] - trainer.train (trainer.py:361) - [Evaluating] Epoch 2/10, Step 1/28, epoch_c_loss:1.3500622510910034, epoch_precision:0.7, epoch_recall:0.5, epoch_f1:0.5833,  
+[2022-08-12 01:57:39,820] [7191] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 01:57:39,823] [7191] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:62.6%, d_recall:49.61%, d_f1:55.35%
+[2022-08-12 01:57:39,823] [7191] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:53.94%, c_recall:42.75%, c_f1:47.699999999999996%
+[2022-08-12 01:57:39,823] [7191] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 641
+[2022-08-12 01:57:39,824] [7191] [INFO] - trainer.train (trainer.py:373) - [Testing] Epoch 2/10, Step 1/28, epoch_c_loss:38.307806611061096, epoch_precision:0.5394, epoch_recall:0.4275, epoch_f1:0.477
+[2022-08-12 01:57:40,754] [7191] [INFO] - trainer.save_model (trainer.py:297) - =========== New Model saved at model/ctc_train_23_stage_2/epoch2,step1,testf1_47_7%,devf1_58_33% =============
+[2022-08-12 01:57:40,755] [7191] [INFO] - trainer.train (trainer.py:409) - epoch2,step1,testf1_47_7%,devf1_58_33%
+[2022-08-12 01:57:42,502] [7191] [INFO] - trainer.train (trainer.py:429) - Epoch End..
+[2022-08-12 01:57:42,502] [7191] [INFO] - trainer.train (trainer.py:435) - [Training epoch] Epoch 2/10,epoch_c_loss:8.208789587020874, epoch_precision:None, epoch_recall:None, epoch_f1:None
+[2022-08-12 01:57:51,654] [7191] [INFO] - trainer.train (trainer.py:352) - [Start Evaluating]: local rank 0
+[2022-08-12 01:57:59,429] [7191] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 01:57:59,429] [7191] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:75.0%, d_recall:64.29%, d_f1:69.23%
+[2022-08-12 01:57:59,429] [7191] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:75.0%, c_recall:64.29%, c_f1:69.23%
+[2022-08-12 01:57:59,429] [7191] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 14
+[2022-08-12 01:57:59,430] [7191] [INFO] - trainer.train (trainer.py:361) - [Evaluating] Epoch 3/10, Step 1/28, epoch_c_loss:1.3459426164627075, epoch_precision:0.75, epoch_recall:0.6429, epoch_f1:0.6923,  
+[2022-08-12 01:58:08,830] [7191] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 01:58:08,830] [7191] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:65.2%, d_recall:50.86000000000001%, d_f1:57.14%
+[2022-08-12 01:58:08,830] [7191] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:56.599999999999994%, c_recall:44.15%, c_f1:49.61%
+[2022-08-12 01:58:08,830] [7191] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 641
+[2022-08-12 01:58:08,832] [7191] [INFO] - trainer.train (trainer.py:373) - [Testing] Epoch 3/10, Step 1/28, epoch_c_loss:38.17172348499298, epoch_precision:0.566, epoch_recall:0.4415, epoch_f1:0.4961
+[2022-08-12 01:58:09,751] [7191] [INFO] - trainer.save_model (trainer.py:297) - =========== New Model saved at model/ctc_train_23_stage_2/epoch3,step1,testf1_49_61%,devf1_69_23% =============
+[2022-08-12 01:58:09,751] [7191] [INFO] - trainer.train (trainer.py:409) - epoch3,step1,testf1_49_61%,devf1_69_23%
+[2022-08-12 01:58:11,455] [7191] [INFO] - trainer.train (trainer.py:429) - Epoch End..
+[2022-08-12 01:58:11,455] [7191] [INFO] - trainer.train (trainer.py:435) - [Training epoch] Epoch 3/10,epoch_c_loss:8.269134163856506, epoch_precision:None, epoch_recall:None, epoch_f1:None
+[2022-08-12 01:58:20,146] [7191] [INFO] - trainer.train (trainer.py:352) - [Start Evaluating]: local rank 0
+[2022-08-12 01:58:27,831] [7191] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 01:58:27,831] [7191] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:69.23%, d_recall:64.29%, d_f1:66.67%
+[2022-08-12 01:58:27,831] [7191] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:69.23%, c_recall:64.29%, c_f1:66.67%
+[2022-08-12 01:58:27,832] [7191] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 14
+[2022-08-12 01:58:27,832] [7191] [INFO] - trainer.train (trainer.py:361) - [Evaluating] Epoch 4/10, Step 1/28, epoch_c_loss:1.3437895774841309, epoch_precision:0.6923, epoch_recall:0.6429, epoch_f1:0.6667,  
+[2022-08-12 01:58:37,136] [7191] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 01:58:37,139] [7191] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:66.67%, d_recall:52.11%, d_f1:58.5%
+[2022-08-12 01:58:37,139] [7191] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:57.68%, c_recall:45.09%, c_f1:50.61%
+[2022-08-12 01:58:37,139] [7191] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 641
+[2022-08-12 01:58:37,141] [7191] [INFO] - trainer.train (trainer.py:373) - [Testing] Epoch 4/10, Step 1/28, epoch_c_loss:38.14459311962128, epoch_precision:0.5768, epoch_recall:0.4509, epoch_f1:0.5061
+[2022-08-12 01:58:38,038] [7191] [INFO] - trainer.save_model (trainer.py:297) - =========== New Model saved at model/ctc_train_23_stage_2/epoch4,step1,testf1_50_61%,devf1_66_67% =============
+[2022-08-12 01:58:38,038] [7191] [INFO] - trainer.train (trainer.py:409) - epoch4,step1,testf1_50_61%,devf1_66_67%
+[2022-08-12 01:58:39,803] [7191] [INFO] - trainer.train (trainer.py:429) - Epoch End..
+[2022-08-12 01:58:39,803] [7191] [INFO] - trainer.train (trainer.py:435) - [Training epoch] Epoch 4/10,epoch_c_loss:8.17777943611145, epoch_precision:None, epoch_recall:None, epoch_f1:None
+[2022-08-12 01:58:48,675] [7191] [INFO] - trainer.train (trainer.py:352) - [Start Evaluating]: local rank 0
+[2022-08-12 01:58:56,466] [7191] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 01:58:56,467] [7191] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:69.23%, d_recall:64.29%, d_f1:66.67%
+[2022-08-12 01:58:56,467] [7191] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:69.23%, c_recall:64.29%, c_f1:66.67%
+[2022-08-12 01:58:56,467] [7191] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 14
+[2022-08-12 01:58:56,467] [7191] [INFO] - trainer.train (trainer.py:361) - [Evaluating] Epoch 5/10, Step 1/28, epoch_c_loss:1.3420186042785645, epoch_precision:0.6923, epoch_recall:0.6429, epoch_f1:0.6667,  
+[2022-08-12 01:59:05,846] [7191] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 01:59:05,846] [7191] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:68.5%, d_recall:52.56999999999999%, d_f1:59.489999999999995%
+[2022-08-12 01:59:05,846] [7191] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:59.760000000000005%, c_recall:45.87%, c_f1:51.9%
+[2022-08-12 01:59:05,846] [7191] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 641
+[2022-08-12 01:59:05,847] [7191] [INFO] - trainer.train (trainer.py:373) - [Testing] Epoch 5/10, Step 1/28, epoch_c_loss:38.0970264673233, epoch_precision:0.5976, epoch_recall:0.4587, epoch_f1:0.519
+[2022-08-12 01:59:06,754] [7191] [INFO] - trainer.save_model (trainer.py:297) - =========== New Model saved at model/ctc_train_23_stage_2/epoch5,step1,testf1_51_9%,devf1_66_67% =============
+[2022-08-12 01:59:06,755] [7191] [INFO] - trainer.train (trainer.py:409) - epoch5,step1,testf1_51_9%,devf1_66_67%
+[2022-08-12 01:59:08,487] [7191] [INFO] - trainer.train (trainer.py:429) - Epoch End..
+[2022-08-12 01:59:08,487] [7191] [INFO] - trainer.train (trainer.py:435) - [Training epoch] Epoch 5/10,epoch_c_loss:8.234709620475769, epoch_precision:None, epoch_recall:None, epoch_f1:None
+[2022-08-12 01:59:17,423] [7191] [INFO] - trainer.train (trainer.py:352) - [Start Evaluating]: local rank 0
+[2022-08-12 01:59:25,180] [7191] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 01:59:25,180] [7191] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:75.0%, d_recall:64.29%, d_f1:69.23%
+[2022-08-12 01:59:25,180] [7191] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:75.0%, c_recall:64.29%, c_f1:69.23%
+[2022-08-12 01:59:25,181] [7191] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 14
+[2022-08-12 01:59:25,181] [7191] [INFO] - trainer.train (trainer.py:361) - [Evaluating] Epoch 6/10, Step 1/28, epoch_c_loss:1.3403578996658325, epoch_precision:0.75, epoch_recall:0.6429, epoch_f1:0.6923,  
+[2022-08-12 01:59:34,561] [7191] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 01:59:34,561] [7191] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:69.77%, d_recall:52.56999999999999%, d_f1:59.96%
+[2022-08-12 01:59:34,561] [7191] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:61.08%, c_recall:46.02%, c_f1:52.49%
+[2022-08-12 01:59:34,561] [7191] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 641
+[2022-08-12 01:59:34,562] [7191] [INFO] - trainer.train (trainer.py:373) - [Testing] Epoch 6/10, Step 1/28, epoch_c_loss:38.02299356460571, epoch_precision:0.6108, epoch_recall:0.4602, epoch_f1:0.5249
+[2022-08-12 01:59:35,478] [7191] [INFO] - trainer.save_model (trainer.py:297) - =========== New Model saved at model/ctc_train_23_stage_2/epoch6,step1,testf1_52_49%,devf1_69_23% =============
+[2022-08-12 01:59:35,478] [7191] [INFO] - trainer.train (trainer.py:409) - epoch6,step1,testf1_52_49%,devf1_69_23%
+[2022-08-12 01:59:37,174] [7191] [INFO] - trainer.train (trainer.py:429) - Epoch End..
+[2022-08-12 01:59:37,174] [7191] [INFO] - trainer.train (trainer.py:435) - [Training epoch] Epoch 6/10,epoch_c_loss:8.143298864364624, epoch_precision:None, epoch_recall:None, epoch_f1:None
+[2022-08-12 01:59:45,931] [7191] [INFO] - trainer.train (trainer.py:352) - [Start Evaluating]: local rank 0
+[2022-08-12 01:59:53,525] [7191] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 01:59:53,526] [7191] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:75.0%, d_recall:64.29%, d_f1:69.23%
+[2022-08-12 01:59:53,526] [7191] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:75.0%, c_recall:64.29%, c_f1:69.23%
+[2022-08-12 01:59:53,526] [7191] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 14
+[2022-08-12 01:59:53,527] [7191] [INFO] - trainer.train (trainer.py:361) - [Evaluating] Epoch 7/10, Step 1/28, epoch_c_loss:1.339935302734375, epoch_precision:0.75, epoch_recall:0.6429, epoch_f1:0.6923,  
+[2022-08-12 02:00:02,832] [7191] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:00:02,832] [7191] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:70.30999999999999%, d_recall:53.2%, d_f1:60.57%
+[2022-08-12 02:00:02,832] [7191] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:61.44%, c_recall:46.489999999999995%, c_f1:52.93%
+[2022-08-12 02:00:02,832] [7191] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 641
+[2022-08-12 02:00:02,834] [7191] [INFO] - trainer.train (trainer.py:373) - [Testing] Epoch 7/10, Step 1/28, epoch_c_loss:37.99566960334778, epoch_precision:0.6144, epoch_recall:0.4649, epoch_f1:0.5293
+[2022-08-12 02:00:03,744] [7191] [INFO] - trainer.save_model (trainer.py:297) - =========== New Model saved at model/ctc_train_23_stage_2/epoch7,step1,testf1_52_93%,devf1_69_23% =============
+[2022-08-12 02:00:03,744] [7191] [INFO] - trainer.train (trainer.py:409) - epoch7,step1,testf1_52_93%,devf1_69_23%
+[2022-08-12 02:00:05,484] [7191] [INFO] - trainer.train (trainer.py:429) - Epoch End..
+[2022-08-12 02:00:05,485] [7191] [INFO] - trainer.train (trainer.py:435) - [Training epoch] Epoch 7/10,epoch_c_loss:8.133536338806152, epoch_precision:None, epoch_recall:None, epoch_f1:None
+[2022-08-12 02:00:14,462] [7191] [INFO] - trainer.train (trainer.py:352) - [Start Evaluating]: local rank 0
+[2022-08-12 02:00:22,147] [7191] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:00:22,148] [7191] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:75.0%, d_recall:64.29%, d_f1:69.23%
+[2022-08-12 02:00:22,148] [7191] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:75.0%, c_recall:64.29%, c_f1:69.23%
+[2022-08-12 02:00:22,148] [7191] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 14
+[2022-08-12 02:00:22,148] [7191] [INFO] - trainer.train (trainer.py:361) - [Evaluating] Epoch 8/10, Step 1/28, epoch_c_loss:1.3406379222869873, epoch_precision:0.75, epoch_recall:0.6429, epoch_f1:0.6923,  
+[2022-08-12 02:00:31,547] [7191] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:00:31,547] [7191] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:69.11%, d_recall:54.449999999999996%, d_f1:60.91%
+[2022-08-12 02:00:31,548] [7191] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:60.4%, c_recall:47.58%, c_f1:53.23%
+[2022-08-12 02:00:31,550] [7191] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 641
+[2022-08-12 02:00:31,551] [7191] [INFO] - trainer.train (trainer.py:373) - [Testing] Epoch 8/10, Step 1/28, epoch_c_loss:38.01792371273041, epoch_precision:0.604, epoch_recall:0.4758, epoch_f1:0.5323
+[2022-08-12 02:00:32,438] [7191] [INFO] - trainer.save_model (trainer.py:297) - =========== New Model saved at model/ctc_train_23_stage_2/epoch8,step1,testf1_53_23%,devf1_69_23% =============
+[2022-08-12 02:00:32,438] [7191] [INFO] - trainer.train (trainer.py:409) - epoch8,step1,testf1_53_23%,devf1_69_23%
+[2022-08-12 02:00:34,120] [7191] [INFO] - trainer.train (trainer.py:429) - Epoch End..
+[2022-08-12 02:00:34,120] [7191] [INFO] - trainer.train (trainer.py:435) - [Training epoch] Epoch 8/10,epoch_c_loss:8.024068474769592, epoch_precision:None, epoch_recall:None, epoch_f1:None
+[2022-08-12 02:00:43,094] [7191] [INFO] - trainer.train (trainer.py:352) - [Start Evaluating]: local rank 0
+[2022-08-12 02:00:50,744] [7191] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:00:50,745] [7191] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:75.0%, d_recall:64.29%, d_f1:69.23%
+[2022-08-12 02:00:50,745] [7191] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:75.0%, c_recall:64.29%, c_f1:69.23%
+[2022-08-12 02:00:50,745] [7191] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 14
+[2022-08-12 02:00:50,745] [7191] [INFO] - trainer.train (trainer.py:361) - [Evaluating] Epoch 9/10, Step 1/28, epoch_c_loss:1.3415236473083496, epoch_precision:0.75, epoch_recall:0.6429, epoch_f1:0.6923,  
+[2022-08-12 02:01:00,203] [7191] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:01:00,203] [7191] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:67.82000000000001%, d_recall:55.230000000000004%, d_f1:60.88%
+[2022-08-12 02:01:00,203] [7191] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:59.199999999999996%, c_recall:48.209999999999994%, c_f1:53.14%
+[2022-08-12 02:01:00,203] [7191] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 641
+[2022-08-12 02:01:00,204] [7191] [INFO] - trainer.train (trainer.py:373) - [Testing] Epoch 9/10, Step 1/28, epoch_c_loss:38.047319531440735, epoch_precision:0.592, epoch_recall:0.4821, epoch_f1:0.5314
+[2022-08-12 02:01:01,104] [7191] [INFO] - trainer.save_model (trainer.py:297) - =========== New Model saved at model/ctc_train_23_stage_2/epoch9,step1,testf1_53_14%,devf1_69_23% =============
+[2022-08-12 02:01:01,104] [7191] [INFO] - trainer.train (trainer.py:409) - epoch9,step1,testf1_53_14%,devf1_69_23%
+[2022-08-12 02:01:02,831] [7191] [INFO] - trainer.train (trainer.py:429) - Epoch End..
+[2022-08-12 02:01:02,832] [7191] [INFO] - trainer.train (trainer.py:435) - [Training epoch] Epoch 9/10,epoch_c_loss:8.044918417930603, epoch_precision:None, epoch_recall:None, epoch_f1:None
+[2022-08-12 02:01:11,756] [7191] [INFO] - trainer.train (trainer.py:352) - [Start Evaluating]: local rank 0
+[2022-08-12 02:01:19,411] [7191] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:01:19,411] [7191] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:75.0%, d_recall:64.29%, d_f1:69.23%
+[2022-08-12 02:01:19,411] [7191] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:75.0%, c_recall:64.29%, c_f1:69.23%
+[2022-08-12 02:01:19,411] [7191] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 14
+[2022-08-12 02:01:19,412] [7191] [INFO] - trainer.train (trainer.py:361) - [Evaluating] Epoch 10/10, Step 1/28, epoch_c_loss:1.3426401615142822, epoch_precision:0.75, epoch_recall:0.6429, epoch_f1:0.6923,  
+[2022-08-12 02:01:28,726] [7191] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:01:28,729] [7191] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:67.74%, d_recall:56.010000000000005%, d_f1:61.31999999999999%
+[2022-08-12 02:01:28,730] [7191] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:58.87%, c_recall:48.67%, c_f1:53.290000000000006%
+[2022-08-12 02:01:28,730] [7191] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 641
+[2022-08-12 02:01:28,731] [7191] [INFO] - trainer.train (trainer.py:373) - [Testing] Epoch 10/10, Step 1/28, epoch_c_loss:38.069701194763184, epoch_precision:0.5887, epoch_recall:0.4867, epoch_f1:0.5329
+[2022-08-12 02:01:29,611] [7191] [INFO] - trainer.save_model (trainer.py:297) - =========== New Model saved at model/ctc_train_23_stage_2/epoch10,step1,testf1_53_29%,devf1_69_23% =============
+[2022-08-12 02:01:29,611] [7191] [INFO] - trainer.train (trainer.py:409) - epoch10,step1,testf1_53_29%,devf1_69_23%
+[2022-08-12 02:01:31,291] [7191] [INFO] - trainer.train (trainer.py:429) - Epoch End..
+[2022-08-12 02:01:31,291] [7191] [INFO] - trainer.train (trainer.py:435) - [Training epoch] Epoch 10/10,epoch_c_loss:7.92383599281311, epoch_precision:None, epoch_recall:None, epoch_f1:None
+[2022-08-12 02:02:38,836] [20528] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:02:38,837] [20525] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:02:38,838] [20526] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:02:38,839] [20524] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:02:38,856] [20527] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:02:38,861] [20528] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:02:38,861] [20528] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990
+[2022-08-12 02:02:38,861] [20528] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10
+[2022-08-12 02:02:38,861] [20528] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 02:02:38,861] [20528] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 6
+[2022-08-12 02:02:38,861] [20528] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 10 steps
+[2022-08-12 02:02:38,863] [20525] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:02:38,864] [20525] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990
+[2022-08-12 02:02:38,864] [20525] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10
+[2022-08-12 02:02:38,864] [20525] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 02:02:38,864] [20525] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 6
+[2022-08-12 02:02:38,864] [20525] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 10 steps
+[2022-08-12 02:02:38,865] [20524] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:02:38,865] [20524] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990
+[2022-08-12 02:02:38,865] [20524] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10
+[2022-08-12 02:02:38,865] [20524] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 02:02:38,865] [20524] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 6
+[2022-08-12 02:02:38,865] [20524] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 10 steps
+[2022-08-12 02:02:38,865] [20526] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:02:38,865] [20526] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990
+[2022-08-12 02:02:38,865] [20526] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10
+[2022-08-12 02:02:38,865] [20526] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 02:02:38,865] [20526] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 6
+[2022-08-12 02:02:38,865] [20526] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 10 steps
+[2022-08-12 02:02:38,888] [20527] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:02:38,888] [20527] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990
+[2022-08-12 02:02:38,888] [20527] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10
+[2022-08-12 02:02:38,888] [20527] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 02:02:38,888] [20527] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 6
+[2022-08-12 02:02:38,888] [20527] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 10 steps
+[2022-08-12 02:02:42,064] [20524] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:02:42,168] [20528] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:02:42,432] [20525] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:02:42,480] [20527] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:02:42,515] [20526] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:02:42,747] [20524] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 02:02:42,749] [20526] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 02:02:42,749] [20528] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 02:02:42,749] [20525] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 02:02:42,751] [20527] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 02:02:53,679] [20524] [INFO] - trainer.train (trainer.py:429) - Epoch End..
+[2022-08-12 02:02:53,679] [20524] [INFO] - trainer.train (trainer.py:435) - [Training epoch] Epoch 1/5,epoch_c_loss:7.966264128684998, epoch_precision:None, epoch_recall:None, epoch_f1:None
+[2022-08-12 02:03:02,607] [20524] [INFO] - trainer.train (trainer.py:352) - [Start Evaluating]: local rank 0
+[2022-08-12 02:03:10,471] [20524] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:03:10,471] [20524] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:75.0%, d_recall:64.29%, d_f1:69.23%
+[2022-08-12 02:03:10,472] [20524] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:75.0%, c_recall:64.29%, c_f1:69.23%
+[2022-08-12 02:03:10,472] [20524] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 14
+[2022-08-12 02:03:10,472] [20524] [INFO] - trainer.train (trainer.py:361) - [Evaluating] Epoch 2/5, Step 1/28, epoch_c_loss:1.3442062139511108, epoch_precision:0.75, epoch_recall:0.6429, epoch_f1:0.6923,  
+[2022-08-12 02:03:19,906] [20524] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:03:19,908] [20524] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:66.36%, d_recall:56.63%, d_f1:61.11%
+[2022-08-12 02:03:19,908] [20524] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:57.769999999999996%, c_recall:49.3%, c_f1:53.2%
+[2022-08-12 02:03:19,908] [20524] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 641
+[2022-08-12 02:03:19,909] [20524] [INFO] - trainer.train (trainer.py:373) - [Testing] Epoch 2/5, Step 1/28, epoch_c_loss:38.09959137439728, epoch_precision:0.5777, epoch_recall:0.493, epoch_f1:0.532
+[2022-08-12 02:03:20,797] [20524] [INFO] - trainer.save_model (trainer.py:297) - =========== New Model saved at model/ctc_train_23_stage_2/epoch2,step1,testf1_53_2%,devf1_69_23% =============
+[2022-08-12 02:03:20,797] [20524] [INFO] - trainer.train (trainer.py:409) - epoch2,step1,testf1_53_2%,devf1_69_23%
+[2022-08-12 02:03:22,506] [20524] [INFO] - trainer.train (trainer.py:429) - Epoch End..
+[2022-08-12 02:03:22,506] [20524] [INFO] - trainer.train (trainer.py:435) - [Training epoch] Epoch 2/5,epoch_c_loss:7.886457443237305, epoch_precision:None, epoch_recall:None, epoch_f1:None
+[2022-08-12 02:03:31,416] [20524] [INFO] - trainer.train (trainer.py:352) - [Start Evaluating]: local rank 0
+[2022-08-12 02:03:39,343] [20524] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:03:39,344] [20524] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:75.0%, d_recall:64.29%, d_f1:69.23%
+[2022-08-12 02:03:39,344] [20524] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:75.0%, c_recall:64.29%, c_f1:69.23%
+[2022-08-12 02:03:39,344] [20524] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 14
+[2022-08-12 02:03:39,344] [20524] [INFO] - trainer.train (trainer.py:361) - [Evaluating] Epoch 3/5, Step 1/28, epoch_c_loss:1.3453235626220703, epoch_precision:0.75, epoch_recall:0.6429, epoch_f1:0.6923,  
+[2022-08-12 02:03:48,681] [20524] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:03:48,681] [20524] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:66.0%, d_recall:56.940000000000005%, d_f1:61.14000000000001%
+[2022-08-12 02:03:48,681] [20524] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:57.49999999999999%, c_recall:49.61%, c_f1:53.26%
+[2022-08-12 02:03:48,681] [20524] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 641
+[2022-08-12 02:03:48,683] [20524] [INFO] - trainer.train (trainer.py:373) - [Testing] Epoch 3/5, Step 1/28, epoch_c_loss:38.10748219490051, epoch_precision:0.575, epoch_recall:0.4961, epoch_f1:0.5326
+[2022-08-12 02:03:49,587] [20524] [INFO] - trainer.save_model (trainer.py:297) - =========== New Model saved at model/ctc_train_23_stage_2/epoch3,step1,testf1_53_26%,devf1_69_23% =============
+[2022-08-12 02:03:49,587] [20524] [INFO] - trainer.train (trainer.py:409) - epoch3,step1,testf1_53_26%,devf1_69_23%
+[2022-08-12 02:03:51,391] [20524] [INFO] - trainer.train (trainer.py:429) - Epoch End..
+[2022-08-12 02:03:51,392] [20524] [INFO] - trainer.train (trainer.py:435) - [Training epoch] Epoch 3/5,epoch_c_loss:7.925968050956726, epoch_precision:None, epoch_recall:None, epoch_f1:None
+[2022-08-12 02:04:00,261] [20524] [INFO] - trainer.train (trainer.py:352) - [Start Evaluating]: local rank 0
+[2022-08-12 02:04:08,093] [20524] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:04:08,093] [20524] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:69.23%, d_recall:64.29%, d_f1:66.67%
+[2022-08-12 02:04:08,093] [20524] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:69.23%, c_recall:64.29%, c_f1:66.67%
+[2022-08-12 02:04:08,093] [20524] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 14
+[2022-08-12 02:04:08,093] [20524] [INFO] - trainer.train (trainer.py:361) - [Evaluating] Epoch 4/5, Step 1/28, epoch_c_loss:1.3467344045639038, epoch_precision:0.6923, epoch_recall:0.6429, epoch_f1:0.6667,  
+[2022-08-12 02:04:17,495] [20524] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:04:17,495] [20524] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:64.92%, d_recall:58.03%, d_f1:61.28%
+[2022-08-12 02:04:17,495] [20524] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:56.54%, c_recall:50.55%, c_f1:53.38%
+[2022-08-12 02:04:17,495] [20524] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 641
+[2022-08-12 02:04:17,496] [20524] [INFO] - trainer.train (trainer.py:373) - [Testing] Epoch 4/5, Step 1/28, epoch_c_loss:38.189364314079285, epoch_precision:0.5654, epoch_recall:0.5055, epoch_f1:0.5338
+[2022-08-12 02:04:18,334] [20524] [INFO] - trainer.save_model (trainer.py:297) - =========== New Model saved at model/ctc_train_23_stage_2/epoch4,step1,testf1_53_38%,devf1_66_67% =============
+[2022-08-12 02:04:18,335] [20524] [INFO] - trainer.train (trainer.py:409) - epoch4,step1,testf1_53_38%,devf1_66_67%
+[2022-08-12 02:04:20,122] [20524] [INFO] - trainer.train (trainer.py:429) - Epoch End..
+[2022-08-12 02:04:20,122] [20524] [INFO] - trainer.train (trainer.py:435) - [Training epoch] Epoch 4/5,epoch_c_loss:7.888155698776245, epoch_precision:None, epoch_recall:None, epoch_f1:None
+[2022-08-12 02:04:28,925] [20524] [INFO] - trainer.train (trainer.py:352) - [Start Evaluating]: local rank 0
+[2022-08-12 02:04:36,803] [20524] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:04:36,803] [20524] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:69.23%, d_recall:64.29%, d_f1:66.67%
+[2022-08-12 02:04:36,804] [20524] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:69.23%, c_recall:64.29%, c_f1:66.67%
+[2022-08-12 02:04:36,804] [20524] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 14
+[2022-08-12 02:04:36,804] [20524] [INFO] - trainer.train (trainer.py:361) - [Evaluating] Epoch 5/5, Step 1/28, epoch_c_loss:1.3477002382278442, epoch_precision:0.6923, epoch_recall:0.6429, epoch_f1:0.6667,  
+[2022-08-12 02:04:46,279] [20524] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:04:46,279] [20524] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:65.84%, d_recall:58.03%, d_f1:61.69%
+[2022-08-12 02:04:46,279] [20524] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:57.17%, c_recall:50.39%, c_f1:53.56999999999999%
+[2022-08-12 02:04:46,279] [20524] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 641
+[2022-08-12 02:04:46,280] [20524] [INFO] - trainer.train (trainer.py:373) - [Testing] Epoch 5/5, Step 1/28, epoch_c_loss:38.184057116508484, epoch_precision:0.5717, epoch_recall:0.5039, epoch_f1:0.5357
+[2022-08-12 02:04:47,131] [20524] [INFO] - trainer.save_model (trainer.py:297) - =========== New Model saved at model/ctc_train_23_stage_2/epoch5,step1,testf1_53_57%,devf1_66_67% =============
+[2022-08-12 02:04:47,132] [20524] [INFO] - trainer.train (trainer.py:409) - epoch5,step1,testf1_53_57%,devf1_66_67%
+[2022-08-12 02:04:48,805] [20524] [INFO] - trainer.train (trainer.py:429) - Epoch End..
+[2022-08-12 02:04:48,805] [20524] [INFO] - trainer.train (trainer.py:435) - [Training epoch] Epoch 5/5,epoch_c_loss:7.950342774391174, epoch_precision:None, epoch_recall:None, epoch_f1:None
+[2022-08-12 02:05:50,842] [27393] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:05:50,842] [27392] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:05:50,842] [27391] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:05:50,867] [27393] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:05:50,867] [27393] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990
+[2022-08-12 02:05:50,867] [27393] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10
+[2022-08-12 02:05:50,867] [27393] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 02:05:50,867] [27393] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 6
+[2022-08-12 02:05:50,867] [27393] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 10 steps
+[2022-08-12 02:05:50,868] [27392] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:05:50,868] [27392] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990
+[2022-08-12 02:05:50,868] [27392] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10
+[2022-08-12 02:05:50,868] [27392] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 02:05:50,868] [27392] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 6
+[2022-08-12 02:05:50,868] [27392] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 10 steps
+[2022-08-12 02:05:50,869] [27391] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:05:50,869] [27391] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990
+[2022-08-12 02:05:50,869] [27391] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10
+[2022-08-12 02:05:50,869] [27391] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 02:05:50,869] [27391] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 6
+[2022-08-12 02:05:50,869] [27391] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 10 steps
+[2022-08-12 02:05:50,871] [27395] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:05:50,881] [27394] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:05:50,897] [27395] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:05:50,897] [27395] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990
+[2022-08-12 02:05:50,897] [27395] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10
+[2022-08-12 02:05:50,897] [27395] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 02:05:50,897] [27395] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 6
+[2022-08-12 02:05:50,898] [27395] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 10 steps
+[2022-08-12 02:05:50,915] [27394] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:05:50,915] [27394] [INFO] - trainer.load_data (trainer.py:215) - _train_size:990
+[2022-08-12 02:05:50,915] [27394] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10
+[2022-08-12 02:05:50,915] [27394] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 02:05:50,915] [27394] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 6
+[2022-08-12 02:05:50,915] [27394] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 10 steps
+[2022-08-12 02:05:54,058] [27393] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:05:54,113] [27392] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:05:54,173] [27391] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:05:54,330] [27394] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:05:54,380] [27395] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:05:54,606] [27391] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 02:05:54,608] [27392] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 02:05:54,608] [27393] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 02:05:54,609] [27394] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 02:05:54,610] [27395] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 02:06:05,859] [27391] [INFO] - trainer.train (trainer.py:429) - Epoch End..
+[2022-08-12 02:06:05,859] [27391] [INFO] - trainer.train (trainer.py:435) - [Training epoch] Epoch 1/5,epoch_c_loss:7.838267087936401, epoch_precision:None, epoch_recall:None, epoch_f1:None
+[2022-08-12 02:06:14,656] [27391] [INFO] - trainer.train (trainer.py:352) - [Start Evaluating]: local rank 0
+[2022-08-12 02:06:22,627] [27391] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:06:22,627] [27391] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:69.23%, d_recall:64.29%, d_f1:66.67%
+[2022-08-12 02:06:22,628] [27391] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:69.23%, c_recall:64.29%, c_f1:66.67%
+[2022-08-12 02:06:22,628] [27391] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 14
+[2022-08-12 02:06:22,628] [27391] [INFO] - trainer.train (trainer.py:361) - [Evaluating] Epoch 2/5, Step 1/28, epoch_c_loss:1.3502464294433594, epoch_precision:0.6923, epoch_recall:0.6429, epoch_f1:0.6667,  
+[2022-08-12 02:06:32,438] [27391] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:06:32,438] [27391] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:64.67%, d_recall:58.809999999999995%, d_f1:61.6%
+[2022-08-12 02:06:32,438] [27391] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:55.57%, c_recall:50.55%, c_f1:52.94%
+[2022-08-12 02:06:32,439] [27391] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 641
+[2022-08-12 02:06:32,440] [27391] [INFO] - trainer.train (trainer.py:373) - [Testing] Epoch 2/5, Step 1/28, epoch_c_loss:38.2221417427063, epoch_precision:0.5557, epoch_recall:0.5055, epoch_f1:0.5294
+[2022-08-12 02:06:33,363] [27391] [INFO] - trainer.save_model (trainer.py:297) - =========== New Model saved at model/ctc_train_23_stage_2/epoch2,step1,testf1_52_94%,devf1_66_67% =============
+[2022-08-12 02:06:33,364] [27391] [INFO] - trainer.train (trainer.py:409) - epoch2,step1,testf1_52_94%,devf1_66_67%
+[2022-08-12 02:06:35,065] [27391] [INFO] - trainer.train (trainer.py:429) - Epoch End..
+[2022-08-12 02:06:35,065] [27391] [INFO] - trainer.train (trainer.py:435) - [Training epoch] Epoch 2/5,epoch_c_loss:7.773522615432739, epoch_precision:None, epoch_recall:None, epoch_f1:None
+[2022-08-12 02:06:43,913] [27391] [INFO] - trainer.train (trainer.py:352) - [Start Evaluating]: local rank 0
+[2022-08-12 02:06:51,922] [27391] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:06:51,922] [27391] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:69.23%, d_recall:64.29%, d_f1:66.67%
+[2022-08-12 02:06:51,922] [27391] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:69.23%, c_recall:64.29%, c_f1:66.67%
+[2022-08-12 02:06:51,922] [27391] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 14
+[2022-08-12 02:06:51,922] [27391] [INFO] - trainer.train (trainer.py:361) - [Evaluating] Epoch 3/5, Step 1/28, epoch_c_loss:1.3520855903625488, epoch_precision:0.6923, epoch_recall:0.6429, epoch_f1:0.6667,  
+[2022-08-12 02:07:01,659] [27391] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:07:01,659] [27391] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:63.18%, d_recall:59.440000000000005%, d_f1:61.25000000000001%
+[2022-08-12 02:07:01,659] [27391] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:53.900000000000006%, c_recall:50.7%, c_f1:52.25%
+[2022-08-12 02:07:01,659] [27391] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 641
+[2022-08-12 02:07:01,661] [27391] [INFO] - trainer.train (trainer.py:373) - [Testing] Epoch 3/5, Step 1/28, epoch_c_loss:38.246792793273926, epoch_precision:0.539, epoch_recall:0.507, epoch_f1:0.5225
+[2022-08-12 02:07:02,531] [27391] [INFO] - trainer.save_model (trainer.py:297) - =========== New Model saved at model/ctc_train_23_stage_2/epoch3,step1,testf1_52_25%,devf1_66_67% =============
+[2022-08-12 02:07:02,531] [27391] [INFO] - trainer.train (trainer.py:409) - epoch3,step1,testf1_52_25%,devf1_66_67%
+[2022-08-12 02:07:04,320] [27391] [INFO] - trainer.train (trainer.py:429) - Epoch End..
+[2022-08-12 02:07:04,321] [27391] [INFO] - trainer.train (trainer.py:435) - [Training epoch] Epoch 3/5,epoch_c_loss:7.798287034034729, epoch_precision:None, epoch_recall:None, epoch_f1:None
+[2022-08-12 02:07:13,298] [27391] [INFO] - trainer.train (trainer.py:352) - [Start Evaluating]: local rank 0
+[2022-08-12 02:07:21,390] [27391] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:07:21,391] [27391] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:69.23%, d_recall:64.29%, d_f1:66.67%
+[2022-08-12 02:07:21,391] [27391] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:69.23%, c_recall:64.29%, c_f1:66.67%
+[2022-08-12 02:07:21,391] [27391] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 14
+[2022-08-12 02:07:21,391] [27391] [INFO] - trainer.train (trainer.py:361) - [Evaluating] Epoch 4/5, Step 1/28, epoch_c_loss:1.3540165424346924, epoch_precision:0.6923, epoch_recall:0.6429, epoch_f1:0.6667,  
+[2022-08-12 02:07:31,028] [27391] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:07:31,029] [27391] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:59.39%, d_recall:60.69%, d_f1:60.029999999999994%
+[2022-08-12 02:07:31,029] [27391] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:50.23%, c_recall:51.33%, c_f1:50.77%
+[2022-08-12 02:07:31,029] [27391] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 641
+[2022-08-12 02:07:31,030] [27391] [INFO] - trainer.train (trainer.py:373) - [Testing] Epoch 4/5, Step 1/28, epoch_c_loss:38.34929096698761, epoch_precision:0.5023, epoch_recall:0.5133, epoch_f1:0.5077
+[2022-08-12 02:07:31,905] [27391] [INFO] - trainer.save_model (trainer.py:297) - =========== New Model saved at model/ctc_train_23_stage_2/epoch4,step1,testf1_50_77%,devf1_66_67% =============
+[2022-08-12 02:07:31,905] [27391] [INFO] - trainer.train (trainer.py:409) - epoch4,step1,testf1_50_77%,devf1_66_67%
+[2022-08-12 02:07:33,674] [27391] [INFO] - trainer.train (trainer.py:429) - Epoch End..
+[2022-08-12 02:07:33,675] [27391] [INFO] - trainer.train (trainer.py:435) - [Training epoch] Epoch 4/5,epoch_c_loss:7.782866716384888, epoch_precision:None, epoch_recall:None, epoch_f1:None
+[2022-08-12 02:07:42,812] [27391] [INFO] - trainer.train (trainer.py:352) - [Start Evaluating]: local rank 0
+[2022-08-12 02:07:50,732] [27391] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:07:50,733] [27391] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:69.23%, d_recall:64.29%, d_f1:66.67%
+[2022-08-12 02:07:50,733] [27391] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:69.23%, c_recall:64.29%, c_f1:66.67%
+[2022-08-12 02:07:50,733] [27391] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 14
+[2022-08-12 02:07:50,734] [27391] [INFO] - trainer.train (trainer.py:361) - [Evaluating] Epoch 5/5, Step 1/28, epoch_c_loss:1.3548200130462646, epoch_precision:0.6923, epoch_recall:0.6429, epoch_f1:0.6667,  
+[2022-08-12 02:08:00,350] [27391] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:08:00,350] [27391] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:57.120000000000005%, d_recall:60.69%, d_f1:58.85%
+[2022-08-12 02:08:00,350] [27391] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:48.6%, c_recall:51.64%, c_f1:50.07%
+[2022-08-12 02:08:00,350] [27391] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 641
+[2022-08-12 02:08:00,352] [27391] [INFO] - trainer.train (trainer.py:373) - [Testing] Epoch 5/5, Step 1/28, epoch_c_loss:38.33285295963287, epoch_precision:0.486, epoch_recall:0.5164, epoch_f1:0.5007
+[2022-08-12 02:08:01,255] [27391] [INFO] - trainer.save_model (trainer.py:297) - =========== New Model saved at model/ctc_train_23_stage_2/epoch5,step1,testf1_50_07%,devf1_66_67% =============
+[2022-08-12 02:08:01,255] [27391] [INFO] - trainer.train (trainer.py:409) - epoch5,step1,testf1_50_07%,devf1_66_67%
+[2022-08-12 02:08:03,028] [27391] [INFO] - trainer.train (trainer.py:429) - Epoch End..
+[2022-08-12 02:08:03,029] [27391] [INFO] - trainer.train (trainer.py:435) - [Training epoch] Epoch 5/5,epoch_c_loss:7.85678505897522, epoch_precision:None, epoch_recall:None, epoch_f1:None
+[2022-08-12 02:10:49,330] [34148] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:11:27,681] [34257] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:11:30,938] [34257] [INFO] - predictor.__init__ (predictor.py:42) - model loaded from dir /home/yanghh/MiduCTC-competition/model/ctc_train_23_stage_2/epoch5step1testf1_53_57%devf1_66_67%
+[2022-08-12 02:11:36,417] [34257] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:11:36,436] [34257] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:166) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 164, in ctc_comp_f1_token_level
+    src_text, trg_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:11:36,442] [34257] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:11:36,458] [34257] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:11:36,541] [34257] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.5435
+[2022-08-12 02:11:36,541] [34257] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-12 02:12:34,534] [34404] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:12:37,739] [34404] [INFO] - predictor.__init__ (predictor.py:42) - model loaded from dir /home/yanghh/MiduCTC-competition/model/ctc_train_23_stage_2/epoch4step1testf1_53_38%devf1_66_67%
+[2022-08-12 02:12:43,258] [34404] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:12:43,277] [34404] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:166) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 164, in ctc_comp_f1_token_level
+    src_text, trg_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:12:43,283] [34404] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:12:43,299] [34404] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:12:43,383] [34404] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.5432
+[2022-08-12 02:12:43,383] [34404] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-12 02:13:40,999] [34571] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:14:06,022] [34656] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:14:09,258] [34656] [INFO] - predictor.__init__ (predictor.py:42) - model loaded from dir /home/yanghh/MiduCTC-competition/model/ctc_train_23_stage_2/epoch3step1testf1_53_26%devf1_69_23%
+[2022-08-12 02:14:14,757] [34656] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:14:14,777] [34656] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:166) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 164, in ctc_comp_f1_token_level
+    src_text, trg_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:14:14,783] [34656] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:14:14,803] [34656] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:14:14,885] [34656] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.5417
+[2022-08-12 02:14:14,885] [34656] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-12 02:14:52,345] [34785] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:14:55,554] [34785] [INFO] - predictor.__init__ (predictor.py:42) - model loaded from dir /home/yanghh/MiduCTC-competition/model/ctc_train_23_stage_2/epoch5step1testf1_53_57%devf1_66_67%
+[2022-08-12 02:15:01,062] [34785] [INFO] - predictor.__init__ (predictor.py:42) - model loaded from dir /home/yanghh/MiduCTC-competition/model/best/best
+[2022-08-12 02:15:06,914] [34785] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:15:06,933] [34785] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:166) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 164, in ctc_comp_f1_token_level
+    src_text, trg_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:15:07,038] [34785] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.5451
+[2022-08-12 02:15:07,038] [34785] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-12 02:15:57,027] [34941] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:16:00,154] [34941] [INFO] - predictor.__init__ (predictor.py:42) - model loaded from dir /home/yanghh/MiduCTC-competition/model/best/best
+[2022-08-12 02:16:05,628] [34941] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:16:05,647] [34941] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:166) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 164, in ctc_comp_f1_token_level
+    src_text, trg_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:16:05,755] [34941] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.5671
+[2022-08-12 02:16:05,755] [34941] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-12 02:16:43,423] [35062] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:16:46,635] [35062] [INFO] - predictor.__init__ (predictor.py:42) - model loaded from dir /home/yanghh/MiduCTC-competition/model/ctc_train_23_stage_2/epoch5step1testf1_53_57%devf1_66_67%
+[2022-08-12 02:16:52,148] [35062] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:16:52,167] [35062] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:166) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 164, in ctc_comp_f1_token_level
+    src_text, trg_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:16:52,173] [35062] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:16:52,189] [35062] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:16:52,271] [35062] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.5435
+[2022-08-12 02:16:52,272] [35062] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-12 02:19:52,137] [35716] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:19:52,137] [35714] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:19:52,140] [35713] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:19:52,140] [35715] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:19:52,141] [35717] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:19:52,163] [35716] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:19:52,163] [35714] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:19:52,163] [35716] [INFO] - trainer.load_data (trainer.py:215) - _train_size:1004
+[2022-08-12 02:19:52,163] [35716] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10
+[2022-08-12 02:19:52,163] [35714] [INFO] - trainer.load_data (trainer.py:215) - _train_size:1004
+[2022-08-12 02:19:52,163] [35716] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 02:19:52,163] [35714] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10
+[2022-08-12 02:19:52,163] [35716] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 6
+[2022-08-12 02:19:52,163] [35714] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 02:19:52,163] [35716] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 10 steps
+[2022-08-12 02:19:52,163] [35714] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 6
+[2022-08-12 02:19:52,163] [35714] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 10 steps
+[2022-08-12 02:19:52,166] [35713] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:19:52,167] [35713] [INFO] - trainer.load_data (trainer.py:215) - _train_size:1004
+[2022-08-12 02:19:52,167] [35713] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10
+[2022-08-12 02:19:52,167] [35713] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 02:19:52,167] [35713] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 6
+[2022-08-12 02:19:52,167] [35713] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 10 steps
+[2022-08-12 02:19:52,168] [35717] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:19:52,168] [35715] [INFO] - dataset.load_label_dict (dataset.py:67) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:19:52,168] [35717] [INFO] - trainer.load_data (trainer.py:215) - _train_size:1004
+[2022-08-12 02:19:52,168] [35717] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10
+[2022-08-12 02:19:52,168] [35717] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 02:19:52,168] [35715] [INFO] - trainer.load_data (trainer.py:215) - _train_size:1004
+[2022-08-12 02:19:52,168] [35717] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 6
+[2022-08-12 02:19:52,168] [35715] [INFO] - trainer.load_data (trainer.py:216) - _dev_size:10
+[2022-08-12 02:19:52,168] [35717] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 10 steps
+[2022-08-12 02:19:52,168] [35715] [INFO] - trainer.load_data (trainer.py:217) - _test_size:1014
+[2022-08-12 02:19:52,168] [35715] [INFO] - trainer.load_data (trainer.py:219) - Total Steps of one epoch : 6
+[2022-08-12 02:19:52,168] [35715] [INFO] - trainer.load_data (trainer.py:221) - Evaluation every 10 steps
+[2022-08-12 02:19:55,381] [35714] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:19:55,429] [35716] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:19:55,477] [35713] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:19:55,589] [35717] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:19:55,645] [35715] [INFO] - trainer.load_label_vocab (trainer.py:149) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:19:55,872] [35713] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 02:19:55,874] [35715] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 02:19:55,874] [35714] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 02:19:55,874] [35717] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 02:19:55,875] [35716] [INFO] - trainer.equip_cuda (trainer.py:455) - DDP training, use cuda list:[0, 1, 2, 3, 4]
+[2022-08-12 02:20:07,107] [35713] [INFO] - trainer.train (trainer.py:429) - Epoch End..
+[2022-08-12 02:20:07,107] [35713] [INFO] - trainer.train (trainer.py:435) - [Training epoch] Epoch 1/5,epoch_c_loss:7.903754353523254, epoch_precision:None, epoch_recall:None, epoch_f1:None
+[2022-08-12 02:20:16,001] [35713] [INFO] - trainer.train (trainer.py:352) - [Start Evaluating]: local rank 0
+[2022-08-12 02:20:24,193] [35713] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:20:24,193] [35713] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:100.0%, d_recall:100.0%, d_f1:100.0%
+[2022-08-12 02:20:24,193] [35713] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+[2022-08-12 02:20:24,193] [35713] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 1
+[2022-08-12 02:20:24,193] [35713] [INFO] - trainer.train (trainer.py:361) - [Evaluating] Epoch 2/5, Step 1/28, epoch_c_loss:1.2529351711273193, epoch_precision:0.0, epoch_recall:0.0, epoch_f1:0,  
+[2022-08-12 02:20:33,883] [35713] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:20:33,884] [35713] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:83.5%, d_recall:53.669999999999995%, d_f1:65.34%
+[2022-08-12 02:20:33,884] [35713] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:75.0%, c_recall:48.209999999999994%, c_f1:58.69%
+[2022-08-12 02:20:33,884] [35713] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 641
+[2022-08-12 02:20:33,885] [35713] [INFO] - trainer.train (trainer.py:373) - [Testing] Epoch 2/5, Step 1/28, epoch_c_loss:37.568867206573486, epoch_precision:0.75, epoch_recall:0.4821, epoch_f1:0.5869
+[2022-08-12 02:20:34,846] [35713] [INFO] - trainer.save_model (trainer.py:297) - =========== New Model saved at model/ctc_train_23_stage_2_val/epoch2,step1,testf1_58_69%,devf1_0% =============
+[2022-08-12 02:20:34,846] [35713] [INFO] - trainer.train (trainer.py:409) - epoch2,step1,testf1_58_69%,devf1_0%
+[2022-08-12 02:20:36,618] [35713] [INFO] - trainer.train (trainer.py:429) - Epoch End..
+[2022-08-12 02:20:36,619] [35713] [INFO] - trainer.train (trainer.py:435) - [Training epoch] Epoch 2/5,epoch_c_loss:7.810546398162842, epoch_precision:None, epoch_recall:None, epoch_f1:None
+[2022-08-12 02:20:45,600] [35713] [INFO] - trainer.train (trainer.py:352) - [Start Evaluating]: local rank 0
+[2022-08-12 02:20:53,708] [35713] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:20:53,709] [35713] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:100.0%, d_recall:100.0%, d_f1:100.0%
+[2022-08-12 02:20:53,709] [35713] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+[2022-08-12 02:20:53,709] [35713] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 1
+[2022-08-12 02:20:53,710] [35713] [INFO] - trainer.train (trainer.py:361) - [Evaluating] Epoch 3/5, Step 1/28, epoch_c_loss:1.246405839920044, epoch_precision:0.0, epoch_recall:0.0, epoch_f1:0,  
+[2022-08-12 02:21:03,325] [35713] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:21:03,328] [35713] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:87.76%, d_recall:52.56999999999999%, d_f1:65.75%
+[2022-08-12 02:21:03,328] [35713] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:79.95%, c_recall:47.89%, c_f1:59.9%
+[2022-08-12 02:21:03,328] [35713] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 641
+[2022-08-12 02:21:03,330] [35713] [INFO] - trainer.train (trainer.py:373) - [Testing] Epoch 3/5, Step 1/28, epoch_c_loss:37.42897546291351, epoch_precision:0.7995, epoch_recall:0.4789, epoch_f1:0.599
+[2022-08-12 02:21:04,298] [35713] [INFO] - trainer.save_model (trainer.py:297) - =========== New Model saved at model/ctc_train_23_stage_2_val/epoch3,step1,testf1_59_9%,devf1_0% =============
+[2022-08-12 02:21:04,299] [35713] [INFO] - trainer.train (trainer.py:409) - epoch3,step1,testf1_59_9%,devf1_0%
+[2022-08-12 02:21:06,104] [35713] [INFO] - trainer.train (trainer.py:429) - Epoch End..
+[2022-08-12 02:21:06,105] [35713] [INFO] - trainer.train (trainer.py:435) - [Training epoch] Epoch 3/5,epoch_c_loss:7.854581594467163, epoch_precision:None, epoch_recall:None, epoch_f1:None
+[2022-08-12 02:21:14,933] [35713] [INFO] - trainer.train (trainer.py:352) - [Start Evaluating]: local rank 0
+[2022-08-12 02:21:22,951] [35713] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:21:22,952] [35713] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:100.0%, d_recall:100.0%, d_f1:100.0%
+[2022-08-12 02:21:22,952] [35713] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+[2022-08-12 02:21:22,952] [35713] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 1
+[2022-08-12 02:21:22,952] [35713] [INFO] - trainer.train (trainer.py:361) - [Evaluating] Epoch 4/5, Step 1/28, epoch_c_loss:1.2452318668365479, epoch_precision:0.0, epoch_recall:0.0, epoch_f1:0,  
+[2022-08-12 02:21:32,481] [35713] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:21:32,481] [35713] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:89.17%, d_recall:55.230000000000004%, d_f1:68.21000000000001%
+[2022-08-12 02:21:32,481] [35713] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:80.86%, c_recall:50.080000000000005%, c_f1:61.85000000000001%
+[2022-08-12 02:21:32,481] [35713] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 641
+[2022-08-12 02:21:32,482] [35713] [INFO] - trainer.train (trainer.py:373) - [Testing] Epoch 4/5, Step 1/28, epoch_c_loss:37.302772760391235, epoch_precision:0.8086, epoch_recall:0.5008, epoch_f1:0.6185
+[2022-08-12 02:21:33,410] [35713] [INFO] - trainer.save_model (trainer.py:297) - =========== New Model saved at model/ctc_train_23_stage_2_val/epoch4,step1,testf1_61_85%,devf1_0% =============
+[2022-08-12 02:21:33,410] [35713] [INFO] - trainer.train (trainer.py:409) - epoch4,step1,testf1_61_85%,devf1_0%
+[2022-08-12 02:21:35,175] [35713] [INFO] - trainer.train (trainer.py:429) - Epoch End..
+[2022-08-12 02:21:35,175] [35713] [INFO] - trainer.train (trainer.py:435) - [Training epoch] Epoch 4/5,epoch_c_loss:7.801281571388245, epoch_precision:None, epoch_recall:None, epoch_f1:None
+[2022-08-12 02:21:39,392] [493] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:21:43,506] [493] [INFO] - predictor.__init__ (predictor.py:42) - model loaded from dir /home/yanghh/MiduCTC-competition/model/ctc_train_23_stage_2/epoch5step1testf1_53_57%devf1_66_67%
+[2022-08-12 02:21:44,512] [35713] [INFO] - trainer.train (trainer.py:352) - [Start Evaluating]: local rank 0
+[2022-08-12 02:21:52,666] [35713] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:21:52,666] [35713] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:100.0%, d_recall:100.0%, d_f1:100.0%
+[2022-08-12 02:21:52,666] [35713] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:0.0%, c_recall:0.0%, c_f1:0%
+[2022-08-12 02:21:52,666] [35713] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 1
+[2022-08-12 02:21:52,667] [35713] [INFO] - trainer.train (trainer.py:361) - [Evaluating] Epoch 5/5, Step 1/28, epoch_c_loss:1.2454891204833984, epoch_precision:0.0, epoch_recall:0.0, epoch_f1:0,  
+[2022-08-12 02:22:02,360] [35713] [INFO] - metric.ctc_f1 (metric.py:92) - ====== [Char Level] ======
+[2022-08-12 02:22:02,361] [35713] [INFO] - metric.ctc_f1 (metric.py:94) - d_precsion:90.36%, d_recall:58.5%, d_f1:71.02000000000001%
+[2022-08-12 02:22:02,361] [35713] [INFO] - metric.ctc_f1 (metric.py:96) - c_precsion:81.69%, c_recall:52.89%, c_f1:64.21%
+[2022-08-12 02:22:02,361] [35713] [INFO] - metric.ctc_f1 (metric.py:97) - error_char_num: 641
+[2022-08-12 02:22:02,362] [35713] [INFO] - trainer.train (trainer.py:373) - [Testing] Epoch 5/5, Step 1/28, epoch_c_loss:37.17548608779907, epoch_precision:0.8169, epoch_recall:0.5289, epoch_f1:0.6421
+[2022-08-12 02:22:03,301] [35713] [INFO] - trainer.save_model (trainer.py:297) - =========== New Model saved at model/ctc_train_23_stage_2_val/epoch5,step1,testf1_64_21%,devf1_0% =============
+[2022-08-12 02:22:03,301] [35713] [INFO] - trainer.train (trainer.py:409) - epoch5,step1,testf1_64_21%,devf1_0%
+[2022-08-12 02:22:05,047] [35713] [INFO] - trainer.train (trainer.py:429) - Epoch End..
+[2022-08-12 02:22:05,047] [35713] [INFO] - trainer.train (trainer.py:435) - [Training epoch] Epoch 5/5,epoch_c_loss:7.743049740791321, epoch_precision:None, epoch_recall:None, epoch_f1:None
+[2022-08-12 02:24:48,982] [2206] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:24:52,205] [2206] [INFO] - predictor.__init__ (predictor.py:42) - model loaded from dir /home/yanghh/MiduCTC-competition/model/ctc_train_23_stage_2/epoch5step1testf1_53_57%devf1_66_67%
+[2022-08-12 02:24:58,783] [2206] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:24:58,794] [2206] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:166) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 164, in ctc_comp_f1_token_level
+    src_text, trg_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:24:58,840] [2206] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:24:58,878] [2206] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:24:58,899] [2206] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.5153
+[2022-08-12 02:24:58,899] [2206] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-12 02:25:07,497] [2306] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:25:10,726] [2306] [INFO] - predictor.__init__ (predictor.py:42) - model loaded from dir /home/yanghh/MiduCTC-competition/model/ctc_train_23_stage_2/epoch5step1testf1_53_57%devf1_66_67%
+[2022-08-12 02:25:16,224] [2306] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:25:16,243] [2306] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:166) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 164, in ctc_comp_f1_token_level
+    src_text, trg_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:25:16,249] [2306] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:25:16,265] [2306] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:25:16,349] [2306] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.5435
+[2022-08-12 02:25:16,349] [2306] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-12 02:25:33,716] [2450] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:25:36,968] [2450] [INFO] - predictor.__init__ (predictor.py:42) - model loaded from dir /home/yanghh/MiduCTC-competition/model/ctc_train_23_stage_2/epoch5step1testf1_53_57%devf1_66_67%
+[2022-08-12 02:25:42,479] [2450] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:25:42,498] [2450] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:166) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 164, in ctc_comp_f1_token_level
+    src_text, trg_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:25:42,505] [2450] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:25:42,521] [2450] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:158) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 156, in ctc_comp_f1_token_level
+    src_text, pred_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:25:42,606] [2450] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.5455
+[2022-08-12 02:25:42,606] [2450] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-12 02:26:11,285] [2567] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:26:56,552] [2661] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:26:59,689] [2661] [INFO] - predictor.__init__ (predictor.py:42) - model loaded from dir /home/yanghh/MiduCTC-competition/model/ctc_train_23_stage_2_val/epoch5step1testf1_64_21%devf1_0%
+[2022-08-12 02:27:05,146] [2661] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:166) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 164, in ctc_comp_f1_token_level
+    src_text, trg_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:27:05,253] [2661] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.6437
+[2022-08-12 02:27:05,253] [2661] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-12 02:27:22,665] [2768] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:27:25,880] [2768] [INFO] - predictor.__init__ (predictor.py:42) - model loaded from dir /home/yanghh/MiduCTC-competition/model/ctc_train_23_stage_2_val/epoch5step1testf1_64_21%devf1_0%
+[2022-08-12 02:27:31,394] [2768] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:166) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 164, in ctc_comp_f1_token_level
+    src_text, trg_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:27:31,498] [2768] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.6448
+[2022-08-12 02:27:31,498] [2768] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-12 02:28:27,606] [2925] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:28:30,843] [2925] [INFO] - predictor.__init__ (predictor.py:42) - model loaded from dir /home/yanghh/MiduCTC-competition/model/ctc_train_23_stage_2_val/epoch5step1testf1_64_21%devf1_0%
+[2022-08-12 02:28:36,373] [2925] [INFO] - predictor.__init__ (predictor.py:42) - model loaded from dir /home/yanghh/MiduCTC-competition/model/best/best
+[2022-08-12 02:28:42,189] [2925] [ERROR] - metric.ctc_comp_f1_token_level (metric.py:166) - 
+Traceback (most recent call last):
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 164, in ctc_comp_f1_token_level
+    src_text, trg_text)
+  File "/home/yanghh/MiduCTC-competition/src/metric.py", line 129, in compute_detect_correct_label_list
+    assert src_i2 - src_i1 == trg_i2 - trg_i1
+AssertionError
+[2022-08-12 02:28:42,294] [2925] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.5974
+[2022-08-12 02:28:42,294] [2925] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-12 02:29:26,458] [3125] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:29:29,655] [3125] [INFO] - predictor.__init__ (predictor.py:42) - model loaded from dir /home/yanghh/MiduCTC-competition/model/ctc_train_23_stage_2_val/epoch5step1testf1_64_21%devf1_0%
+[2022-08-12 02:32:04,383] [3369] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:32:07,531] [3369] [INFO] - predictor.__init__ (predictor.py:42) - model loaded from dir /home/yanghh/MiduCTC-competition/model/ctc_train_23_stage_2/epoch5step1testf1_53_57%devf1_66_67%
+[2022-08-12 02:36:25,526] [3696] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:37:47,969] [3852] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 02:37:51,134] [3852] [INFO] - predictor.__init__ (predictor.py:42) - model loaded from dir /home/yanghh/MiduCTC-competition/model/ctc_train_23_stage_2_val/epoch3step1testf1_59_9%devf1_0%
+[2022-08-12 23:31:22,941] [9140] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-12 23:31:24,448] [9140] [INFO] - predictor.__init__ (predictor.py:42) - model loaded from dir /home/yanghh/MiduCTC-competition/model/ctc_train_23_stage_2_val/epoch3step1testf1_59_9%devf1_0%

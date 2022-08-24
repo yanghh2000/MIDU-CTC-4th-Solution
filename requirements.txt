@@ -1,0 +1,10 @@
+auto-argparse==0.0.7
+numpy==1.21.1
+OpenCC==1.1.4
+PyNLPIR==0.6.0
+pypinyin==0.46.0
+python-Levenshtein==0.12.1
+rich==12.3.0
+tokenizers==0.11.6
+torch==1.7.1
+transformers==4.21.1

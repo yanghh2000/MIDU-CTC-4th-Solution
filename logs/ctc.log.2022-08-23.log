@@ -1,0 +1,71 @@
+[2022-08-23 17:31:01,502] [24874] [INFO] - predictor.load_label_dict (predictor.py:87) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-23 17:31:02,876] [24874] [INFO] - predictor.__init__ (predictor.py:65) - model loaded from dir model/roberta_best
+[2022-08-23 17:32:40,367] [24915] [INFO] - predictor.load_label_dict (predictor.py:87) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-23 17:33:39,714] [24938] [INFO] - predictor.load_label_dict (predictor.py:87) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-23 17:36:09,061] [24965] [INFO] - predictor.load_label_dict (predictor.py:87) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-23 17:36:10,423] [24965] [INFO] - predictor.__init__ (predictor.py:65) - model loaded from dir ./model/roberta_best
+[2022-08-23 17:42:03,453] [25442] [INFO] - predictor.load_label_dict (predictor.py:87) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-23 17:45:30,563] [25883] [INFO] - predictor.load_label_dict (predictor.py:87) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-23 17:45:32,047] [25883] [INFO] - predictor.__init__ (predictor.py:65) - model loaded from dir model/roberta_best
+[2022-08-23 17:47:44,707] [26498] [INFO] - predictor.load_label_dict (predictor.py:88) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-23 17:47:46,142] [26498] [INFO] - predictor.__init__ (predictor.py:66) - model loaded from dir model/roberta_best
+[2022-08-23 17:49:57,145] [26797] [INFO] - predictor.load_label_dict (predictor.py:87) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-23 17:49:58,567] [26797] [INFO] - predictor.__init__ (predictor.py:65) - model loaded from dir ./model/roberta_best/
+[2022-08-23 17:50:52,247] [27027] [INFO] - predictor.load_label_dict (predictor.py:89) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-23 17:50:53,695] [27027] [INFO] - predictor.__init__ (predictor.py:67) - model loaded from dir ./model/roberta_best
+[2022-08-23 17:55:31,425] [27575] [INFO] - predictor.load_label_dict (predictor.py:89) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-23 17:55:32,865] [27575] [INFO] - predictor.__init__ (predictor.py:67) - model loaded from dir model/roberta_best
+[2022-08-23 17:55:49,993] [27646] [INFO] - predictor.load_label_dict (predictor.py:89) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-23 17:55:51,400] [27646] [INFO] - predictor.__init__ (predictor.py:67) - model loaded from dir model/roberta_best
+[2022-08-23 17:55:55,003] [27646] [INFO] - predictor.__init__ (predictor.py:67) - model loaded from dir model/macbert_best
+[2022-08-23 17:55:56,100] [27646] [INFO] - predictor.__init__ (predictor.py:67) - model loaded from dir model/pert_best
+[2022-08-23 17:55:59,906] [27646] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.7041
+[2022-08-23 17:55:59,906] [27646] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-23 17:56:00,156] [27646] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.7055
+[2022-08-23 17:56:00,156] [27646] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-23 17:57:01,325] [27820] [INFO] - predictor.load_label_dict (predictor.py:87) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-23 17:57:02,739] [27820] [INFO] - predictor.__init__ (predictor.py:65) - model loaded from dir model/roberta_best
+[2022-08-23 17:57:06,325] [27820] [INFO] - predictor.__init__ (predictor.py:65) - model loaded from dir model/macbert_best
+[2022-08-23 17:57:07,417] [27820] [INFO] - predictor.__init__ (predictor.py:65) - model loaded from dir model/pert_best
+[2022-08-23 17:57:11,253] [27820] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.7041
+[2022-08-23 17:57:11,253] [27820] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-23 17:57:11,504] [27820] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.7055
+[2022-08-23 17:57:11,504] [27820] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-23 18:01:13,779] [28349] [INFO] - predictor.load_label_dict (predictor.py:87) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-23 18:01:15,213] [28349] [INFO] - predictor.__init__ (predictor.py:65) - model loaded from dir model/roberta_best
+[2022-08-23 18:01:18,780] [28349] [INFO] - predictor.__init__ (predictor.py:65) - model loaded from dir model/macbert_best
+[2022-08-23 18:01:19,859] [28349] [INFO] - predictor.__init__ (predictor.py:65) - model loaded from dir model/pert_best
+[2022-08-23 18:01:23,668] [28349] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.7013
+[2022-08-23 18:01:23,668] [28349] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-23 18:01:23,919] [28349] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.7027
+[2022-08-23 18:01:23,919] [28349] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-23 18:01:52,787] [28452] [INFO] - predictor.load_label_dict (predictor.py:87) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-23 18:01:54,195] [28452] [INFO] - predictor.__init__ (predictor.py:65) - model loaded from dir model/roberta_best
+[2022-08-23 18:01:57,762] [28452] [INFO] - predictor.__init__ (predictor.py:65) - model loaded from dir model/macbert_best
+[2022-08-23 18:01:58,838] [28452] [INFO] - predictor.__init__ (predictor.py:65) - model loaded from dir model/pert_best
+[2022-08-23 18:02:02,643] [28452] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.7041
+[2022-08-23 18:02:02,643] [28452] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-23 18:02:02,895] [28452] [INFO] - metric.final_f1_score (metric.py:235) - final f1:0.7055
+[2022-08-23 18:02:02,895] [28452] [INFO] - metric.final_f1_score (metric.py:236) - f1 logfile saved at:logs/f1_score.log
+[2022-08-23 18:32:05,832] [32135] [INFO] - predictor.load_label_dict (predictor.py:87) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-23 18:32:07,330] [32135] [INFO] - predictor.__init__ (predictor.py:65) - model loaded from dir model/roberta_best
+[2022-08-23 18:32:10,890] [32135] [INFO] - predictor.__init__ (predictor.py:65) - model loaded from dir model/macbert_best
+[2022-08-23 18:32:11,988] [32135] [INFO] - predictor.__init__ (predictor.py:65) - model loaded from dir model/pert_best
+[2022-08-23 18:32:39,653] [32418] [INFO] - predictor.load_label_dict (predictor.py:87) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-23 18:32:40,871] [32418] [INFO] - predictor.__init__ (predictor.py:65) - model loaded from dir model/roberta_best
+[2022-08-23 18:32:44,452] [32418] [INFO] - predictor.__init__ (predictor.py:65) - model loaded from dir model/macbert_best
+[2022-08-23 18:32:45,712] [32418] [INFO] - predictor.__init__ (predictor.py:65) - model loaded from dir model/pert_best
+[2022-08-23 19:18:07,125] [36795] [INFO] - predictor.load_label_dict (predictor.py:87) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-23 19:18:08,557] [36795] [INFO] - predictor.__init__ (predictor.py:65) - model loaded from dir model/roberta_best
+[2022-08-23 19:18:12,668] [36795] [INFO] - predictor.__init__ (predictor.py:65) - model loaded from dir model/macbert_best
+[2022-08-23 19:18:14,073] [36795] [INFO] - predictor.__init__ (predictor.py:65) - model loaded from dir model/pert_best
+[2022-08-23 19:22:28,881] [37170] [INFO] - predictor.load_label_dict (predictor.py:87) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-23 19:22:30,366] [37170] [INFO] - predictor.__init__ (predictor.py:65) - model loaded from dir model/roberta_best
+[2022-08-23 19:22:33,801] [37170] [INFO] - predictor.__init__ (predictor.py:65) - model loaded from dir model/macbert_best
+[2022-08-23 19:22:34,868] [37170] [INFO] - predictor.__init__ (predictor.py:65) - model loaded from dir model/pert_best
+[2022-08-23 19:24:18,597] [37808] [INFO] - predictor.load_label_dict (predictor.py:87) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-23 19:24:20,033] [37808] [INFO] - predictor.__init__ (predictor.py:65) - model loaded from dir model/roberta_best
+[2022-08-23 19:24:24,177] [37808] [INFO] - predictor.__init__ (predictor.py:65) - model loaded from dir model/macbert_best
+[2022-08-23 19:24:25,350] [37808] [INFO] - predictor.__init__ (predictor.py:65) - model loaded from dir model/pert_best
+[2022-08-23 19:25:46,139] [37925] [INFO] - predictor.load_label_dict (predictor.py:87) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-23 19:25:47,715] [37925] [INFO] - predictor.__init__ (predictor.py:65) - model loaded from dir model/roberta_best

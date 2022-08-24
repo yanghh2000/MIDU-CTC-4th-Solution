@@ -1,0 +1,4 @@
+[2022-08-13 00:46:54,837] [15337] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-13 00:46:56,220] [15337] [INFO] - predictor.__init__ (predictor.py:42) - model loaded from dir /home/yanghh/MiduCTC-competition/model/roberta_best/best
+[2022-08-13 00:50:10,348] [15449] [INFO] - predictor.load_label_dict (predictor.py:64) - d_tag num: 2, d_tags:{'$KEEP': 0, '$ERROR': 1}
+[2022-08-13 00:50:11,617] [15449] [INFO] - predictor.__init__ (predictor.py:42) - model loaded from dir /home/yanghh/MiduCTC-competition/model/roberta_best/best
