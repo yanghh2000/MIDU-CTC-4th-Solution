@@ -1,6 +1,18 @@
 # 文本智能校对大赛——YanSun团队方案（第四名）
 
-[toc]
+- [文本智能校对大赛——YanSun团队方案（第四名）](#文本智能校对大赛yansun团队方案第四名)
+  - [方案说明](#方案说明)
+    - [解决方案](#解决方案)
+    - [模型代码](#模型代码)
+    - [训练流程](#训练流程)
+  - [数据来源&准备](#数据来源准备)
+  - [预训练模型准备&下载](#预训练模型准备下载)
+  - [环境安装](#环境安装)
+  - [简单使用](#简单使用)
+    - [代码结构](#代码结构)
+    - [使用说明](#使用说明)
+    - [使用已有checkpoint进行evaluate或upload](#使用已有checkpoint进行evaluate或upload)
+    - [从头开始训练（包括数据准备与数据增强）](#从头开始训练包括数据准备与数据增强)
 
 ## 方案说明
 文本智能校对大赛 [比赛官方链接](https://aistudio.baidu.com/aistudio/competition/detail/404/0/introduction)
@@ -35,9 +47,9 @@
 
 ## 预训练模型准备&下载
 本方案使用了chinese-roberta-wwm-ext，chinese-macbert-base，chinese-pert-base 三个预训练模型，请查看 pretrained_model/ 目录下是否已经有这些预训练模型权重文件，若没有，需要从huggingface下载对应模型权重文件：
-chinese-roberta-wwm-ext: https://huggingface.co/hfl/chinese-roberta-wwm-ext
-chinese-macbert-base: https://huggingface.co/hfl/chinese-macbert-base
-chinese-pert-base: https://huggingface.co/hfl/chinese-pert-base
+chinese-roberta-wwm-ext: https://huggingface.co/hfl/chinese-roberta-wwm-ext  
+chinese-macbert-base: https://huggingface.co/hfl/chinese-macbert-base  
+chinese-pert-base: https://huggingface.co/hfl/chinese-pert-base  
 
 ## 环境安装
 ```
